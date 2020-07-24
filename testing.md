@@ -3,9 +3,9 @@
 # Café Java Project Testing Details #
 
 
-[Main README.md file](https://github.com/AlexNexton/BI-Team-5/blob/master/README.md)
+[Main README.md file](https://github.com/simonjvardy/project-portfolio/blob/master/README.md)
 
-[View the live project here.](https://alexnexton.github.io/BI-Team-5/)
+[View the live project here.](https://simonjvardy.github.io/MS-1/)
 
 ---
 
@@ -14,6 +14,8 @@
 - [Automated Testing](#automated-testing)
   - [Validation Services](#validation-services)
 - [Manual Testing](#manual-testing)
+  - [Unit Testing](#unit-testing)
+  - [Functional Testing](#functional-testing-(combined-integration-and-system-testing))
   - [User Acceptance Testing (UAT)](#user-acceptance-testing-(uat))
   - [Testing undertaken on desktop](#testing-undertaken-on-desktop)
   - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
@@ -36,6 +38,19 @@ The following **validation services** and **linter** were used to check the vali
 ---
 ## Manual Testing ##
 ---
+
+### Unit Testing ###
+[Unit Testing document](testing/MS1-unit-test-plan.pdf) containing:
+- Unit Test scope,
+- The test cases,
+- The pass / fail record for each test case.
+
+### Functional Testing (combined Integration and System testing) ###
+[Functional Testing document](testing/MS1-functional-test-plan.pdf) containing:
+- UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
+- Identified risks, 
+- The test cases,
+- The pass / fail record for each test case.
 
 ### User Acceptance Testing (UAT) ###
 [UAT document](testing/MS1-uat-test-plan.pdf) containing:

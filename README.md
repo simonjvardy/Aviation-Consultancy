@@ -37,17 +37,17 @@
 
 ## Project Goals ##
 
-The **goal** of this project is to build a website which allows a local coffee shop to better manage their business, minimise revenue loses and comply with social distancing requirements due to the Global Covid-19 pandemic.
+The **goal** of this project is to build a website which allows ...
 
 The features on the website will:
 
-- Give customers more ways to interact with the shop (online bookings, social media, phone,  email)
-- Enable the business to better manager the flow of customers through their premises and ensure safe conditions for all.
+- Give customers more ways to interact ... (online bookings, social media, phone,  email)
+- Enable the business to better manage the flow of customers ...
 
 We achieve this by:
 
-- Providing an option to the customers to make their **to-go** orders online
-- Providing an option to the customers to **book a table** to prevent instances where the cafe it at full capacity and social distancing is not maintained.
+- Providing an option to the customers to ...
+- Providing an option to the customers to ...
 
 ## User Goals ##
 
@@ -204,7 +204,7 @@ You can find the images used for the site [here](assets/img). We have sourced th
 
 ### Colour ###
 
-We have identified the colour palette on [W3](https://www.w3schools.com/)
+We have identified the colour palette on [Coolors](https://coolors.co/)
 
 ### Image editing ###
 
@@ -215,7 +215,8 @@ We have identified the colour palette on [W3](https://www.w3schools.com/)
 
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
 - [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material for the code-along challenge.
-- [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
+- [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original Unit Testing and UAT Testing Plan documents were sourced
 - [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
 - [Neringa Bickmore](https://github.com/neringabickmore) for her guidance and advice on the README.md and testing.mddocument content and layout.
+- [Software Testing Fundamentals (STF)](http://softwaretestingfundamentals.com/) for an excellent guide on building testing processes.
 ---
