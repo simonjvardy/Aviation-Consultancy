@@ -200,21 +200,31 @@ Copy the following code and input it into your terminal to clone [repo name]:
 You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
 
 - [Pikrepo](https://www.pikrepo.com/)
+- [Flickr](https://www.flickr.com/)
+- [Pikist](https://www.pikist.com/)
+- [Piqsels](https://www.piqsels.com/)
+- [Pikrepo](https://www.pikrepo.com/)
+- [Pixabay](https://pixabay.com/)
+- [Airliners.net](http://www.airliners.net/)
+- [best-wallpaper.net](https://best-wallpaper.net/)
+- [Pxfuel](https://www.pxfuel.com/)
+- [Pexels](https://www.pexels.com/)
 - [Unsplash](https://unsplash.com/)
+- Image(s) used under license from Shutterstock.com.
 
 ### Colour ###
 
-We have identified the colour palette on [Coolors](https://coolors.co/)
+The colour palette was identified on [Coolors](https://coolors.co/)
 
 ### Image editing ###
 
-- We have used snippet tool for capturing screengrabs which we have saved as images.
+- Microsoft snipping tool was used for capturing screengrabs which are saved as images.
 - A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
 
 ### Acknowledgements ###
 
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
-- [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material for the code-along challenge.
+- [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material for the inspiration from code-along challenges.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original Unit Testing and UAT Testing Plan documents were sourced
 - [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
 - [Neringa Bickmore](https://github.com/neringabickmore) for her guidance and advice on the README.md and testing.mddocument content and layout.
