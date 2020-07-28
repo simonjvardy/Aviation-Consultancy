@@ -1,9 +1,9 @@
 ![Logo](/wireframes/logo-image.jpg)
 
-# Café Java Project Testing Details #
+# MS-1 Project Testing Details #
 
 
-[Main README.md file](https://github.com/simonjvardy/project-portfolio/blob/master/README.md)
+[Main README.md file](https://github.com/simonjvardy/MS-1/blob/master/README.md)
 
 [View the live project here.](https://simonjvardy.github.io/MS-1/)
 
