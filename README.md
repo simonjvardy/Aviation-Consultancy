@@ -89,7 +89,7 @@ We achieve this by:
 
 ### Fonts ###
 
-We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  We have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
+We have chosen [Oswald](https://fonts.google.com/specimen/Oswald?query=Oswald) for all of the headers and [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto) the rest of the text.
 
 ### Colours ###
 
@@ -133,7 +133,6 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 - [Colour editor](https://coolors.co/)
 - [Image editor](https://www.birme.net/)
 - [Favicons](https://favicon.io/)
-- [Google maps API](https://cloud.google.com/maps-platform/)
 
 ---
 
@@ -160,8 +159,8 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 
 ## Bugs ##
 
-For every bug we found while in development process, we have logged an [incident](https://github.com/simonjvardy/[repo name]/issues) report.
-Bug we have managed to fix are now marked as [closed](https://github.com/simonjvardy/[repo name]/issues?q=is%3Aissue+is%3Aclosed).
+For every bug we found while in development process, we have logged an [incident](https://github.com/simonjvardy/MS-1/issues) report.
+Bug we have managed to fix are now marked as [closed](https://github.com/simonjvardy/MS-1/issues?q=is%3Aissue+is%3Aclosed).
 
 ## Deployment ##
 
@@ -170,18 +169,18 @@ The website was developed using both *Gitpod* and *Visual Studio Code* and using
 - Opened up **GitHub** in the browser.
 - Signed in with my **username** and **password**.
 - Selected my **repositories**.
-- Navigated to **simonjvardy/[repo name]**.
+- Navigated to **simonjvardy/MS-1**.
 - In the top navigation clicked **settings**.
 - Scrolled down to the **GitHub Pages** area.
 - Selected **Master Branch** from the **Source** dropdown menu.
 - Clicked to **confirm** my **selection**.
-- [repo name](https://simonjvardy.github.io/[repo name]/) is now **live** on **GitHub Pages**.
+- [repo name](https://simonjvardy.github.io/MS-1/) is now **live** on **GitHub Pages**.
 
-### Running [repo name] Locally ###
+### Running MS-1 Locally ###
 
-Cloning [repo name] from GitHub:
+Cloning MS-1 from GitHub:
 
-- Navigate to **simonjvardy/[repo name here]**.
+- Navigate to **simonjvardy/MS-1**.
 - Click the green **Code** button.
 - **Copy** the url in the dropdown box.
 - Using your favourite **IDE** open up your preferred terminal.
@@ -189,7 +188,7 @@ Cloning [repo name] from GitHub:
 
 Copy the following code and input it into your terminal to clone [repo name]:
 
-```git clone https://github.com/simonjvardy/[add repo name here].git```
+```git clone https://github.com/simonjvardy/MS-1.git```
 
 ---
 
