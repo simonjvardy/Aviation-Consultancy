@@ -214,7 +214,7 @@ You can find the images used for the site [here](assets/img). We have sourced th
 
 ### Colour ###
 
-Thje colour palette was identified on [Coolors](https://coolors.co/)
+The colour palette was identified on [Coolors](https://coolors.co/)
 
 ### Image editing ###
 
