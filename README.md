@@ -1,6 +1,14 @@
 # ![Logo](/wireframes/) #
 
-***Project** description paragraph goes here.*
+***Aviation Consultancy LLC** is (fictitious) consultancy business specialising in aircraft maintenance data and regulatory compliance, based at 
+London Heathrow Airport.
+I designed the website to be a showcase of the available services and a means for new customers to make contact with the business allowing project and service requests to be submitted. 
+It's not required to sell any products directly but describes the company values, unique selling points and the problems the company can solve for its clients.*
+
+*I created the Aviation Consultancy LLC logo to present a professional, trustworthy image based on research of similar contemporary consultancy service websites 
+(details of these websites can be found in the Credits section). The colour scheme was chosen from the Blue / Green colours to reflect a calm balanced approach as well as to 
+blend well with the aviation and sky themes.*
+
 
 ## Contents ##
 
@@ -112,27 +120,44 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 
 ### Languages ###
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - Used as the main markup language for the website content.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - Used to style the individual webpages.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - [TBC]
 
 ### Libraries ###
 
-- [jQuery](https://jquery.com/)
-- [Popper](https://popper.js.org/)
 - [Bootstrap](https://getbootstrap.com/)
+  - Used to design a mobile-first responsive website layout.
+- [jQuery](https://jquery.com/)
+  - Loaded as part of the [Bootstrap CDN starter template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template)
+- [Popper](https://popper.js.org/)
+  - Loaded as part of the [Bootstrap CDN starter template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template)
 - [Hover CSS](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css)
+  - Used to add extra effects to CSS hover selectors on buttons and links.
   
 ### Tools ###
 
 - [Git](https://git-scm.com/)
+  - Used for version control
 - [GitHub](https://github.com/)
+  - Used to store, host and deploy the project files and source code
+- [Gitpod](https://www.gitpod.io/)
+  - An online IDE linked to the GitHub repository used for the majority of the code development.
 - [Visual Studio Code](https://code.visualstudio.com/)
+  - A locally installed IDE connected to the GitHub repository for when there was no internet connection to use Gitpod.
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery)
+  - Used for icons to enhance headings and add emphasis to text.
 - [Google fonts](https://fonts.google.com/)
+  - Used for the website fonts
 - [Colour editor](https://coolors.co/)
+  - Used to choose the website colour scheme
 - [Image editor](https://www.birme.net/)
+  - An online bulk image resizing tool.
 - [Favicons](https://favicon.io/)
+  - Used to generate a favicon for the website title
 
 ---
 
@@ -220,6 +245,20 @@ The colour palette was identified on [Coolors](https://coolors.co/)
 - Microsoft snipping tool was used for capturing screengrabs which are saved as images.
 - A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
 
+### Inspiration ###
+
+The following websites were used for design and image ideas based on similar business sectors:
+- [Osprey Consulting Services](https://ospreycsl.co.uk/)
+- [IAG The Internatioanl Aviation Group](https://theaviationgroup.eu/mro/)
+- [Aviation Analysts International](http://www.inter-aviation.com/)
+- [Aviation Consulting Services](https://aviationconsultingservices.com.au/)
+- [ICF](https://www.icf.com/)
+- [Alton Aviation Consultants](https://altonaviation.com/)
+
+The following website was used for design ideas and a clean modern look:
+- [Greenhouse Digital Marketing Agency](https://pages.ghagency.com/)
+
+
 ### Acknowledgements ###
 
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
@@ -227,5 +266,8 @@ The colour palette was identified on [Coolors](https://coolors.co/)
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original Unit Testing and UAT Testing Plan documents were sourced
 - [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
 - [Neringa Bickmore](https://github.com/neringabickmore) for her guidance and advice on the README.md and testing.mddocument content and layout.
+- [Frozenaught](https://github.com/Frozenaught/homechopped) for further README.md content ideas.
+- [Gary Simons](https://github.com/GarySimons/WildBunch-Florist) for further README.md content ideas.
 - [Software Testing Fundamentals (STF)](http://softwaretestingfundamentals.com/) for an excellent guide on building testing processes.
+- [CoSchedule Blog Post](https://coschedule.com/blog/color-psychology-marketing/) for help with colour psychology in marketing.
 ---
