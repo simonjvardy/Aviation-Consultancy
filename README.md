@@ -31,6 +31,7 @@ blend well with the aviation and sky themes.*
   - [Features](#features)
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
+  - [Version Control](#version-control)
   - [Testing](#testing)
   - [Bugs](#bugs)
   - [Deployment](#deployment)
@@ -59,22 +60,36 @@ We achieve this by:
 
 ## User Goals ##
 
-- **Book** a table in the coffee shop for a specific time.
-- **Order** a coffee **online** for collection.
-- **Link** to the coffee shop social media sites.
+- **Understand** whether the provided services solve their problems or pain points.
+- **Contact** the business to submit a project proposal.
 
 ## User Stories ##
 
-- As a **user**, I want to ...
-- As a **user**, I want to ...
-- As a **user**, I can ...
-- As a **user**, I can ...
+- As a **user**, I can see a hero image welcoming the user to the site
+- As a **user**, I can see a CTA to learn more about the business
+- As a **user** I can scroll back to the top of a page with the click of a button
+- As a **user**, I want to see a navigation bar at the top of the page where I can navigate to each of the different site pages
+- As a **user**, I can see a company logo or name in the navigation bar
+- As a **user**, I can see a navigation bar that remains in view when the page is scrolled down on desktop view
+- As a **user**, I can see a collapsed navigation bar icon that opens up to give access to the site navigation links when clicked
+- As a **user**, I can see a page describing examples of the work
+- As a **user**, I can see a page describing the services provided by the business
+- As a **user**, I can see a page describing how the company can help with the client's projects
+- As a **user**, I can read a biography of key personnel in the company
+- As a **user**, I can contact the business by submitting my details with a message
+- As a **user**, I want to know where the business is located on a map
+- As a **user**, I can see the website privacy policy and terms and conditions.
+- As a **user**, I can see a site map with links to all the site pages
+- As a **user**, I can contact the business using their social media channels, call them or email.
 
 ## Site Owner Goals ##
 
-- As a **site owner**, I want to create ...
-- As a **site owner**, I want the user to be able to ..
-- As a **site owner**, I want my users to be able to ...
+- As a **site owner**, I want to create an interactive website allowing the user to easily understand the services available
+- As a **site owner**, I want the user to be able to see a location of the coffee shop on the google maps.
+- As a **site owner**, I want the user to be able to submit a contact request with additional text. 
+- As a **site owner**, I want the user to see the unique selling points of the business
+- As a **site owner**, I want the user to be able to understand the company values.
+- As a **site owner**, I want the user to be able to the purpose of the business.
 
 ## User Requirements and Expectations ##
 
@@ -154,7 +169,7 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
   - Used for the website fonts
 - [Colour editor](https://coolors.co/)
   - Used to choose the website colour scheme
-- [Image editor](https://www.birme.net/)
+- [Image Resizing](https://www.birme.net/)
   - An online bulk image resizing tool.
 - [Favicons](https://favicon.io/)
   - Used to generate a favicon for the website title
@@ -178,14 +193,44 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 
 ---
 
+## Version Control ##
+Version control for this repository is managed within GitHub and Gitpod using separate [branches](https://github.com/simonjvardy/MS-1/branches)  used to work on specific aspects of the project.
+The following describes the repository branch structure:
+	• Master - this is the default branch and the source for the repository deployment.
+		○ Documentation - this branch is used for updating the README.md and testing.md documentation only.
+		○ Development - this branch is used as the main working branch for the website development
+		○ Each individual bug fixes are raised within their own separate branches using the naming convention **<GitHub Issue ID Number>-<bug fix description>** e.g. branch name ***12-correct-social-links*** 
+
+The following worflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
+1. Open Gitpod from Github using the Gitpod button. This needs to only be done once at the start of the project.
+2. Start the Gitpod Workspace which opens an IDE editor window.
+3. For changes to be made to any documentation files, the git command `git checkout documentation` is used to checkout and switch to the documentation branch.
+4. For changes to be made to all other files, the git command `git checkout development` is used to checkout and switch to the development branch.
+5. New or modified files are staged using the `git add .` command
+6. The changes are committed using `git commit -m "<commit message>"` command.
+7. The committed changes are pushed from Gitpod to GitHub using the `git push` command.
+8. Opening the repository in Github,  a new pull request  is created for the updated branch and assigned to the Development project.
+9. The changes are reviewed to ensure there are no conflicts between the updated branch and the Master branch
+10. The changes are then merged into the Master branch and the merge request is closed. The Project entry is automatically moved to the Done card.
+11. To update Gitpod with the latest commits From GitHub, the `git checkout master` command is used to checkout and switch to the master branch.
+12. Use the `git pull` command to update the master branch and reset the pointer
+13. Now switch to the other branches in Gitpod and use the `git merge origin/master` command to update each branch in turn.
+14. Use the `git push` on each branch to update the relevant GiHub Branches to the same commit as the Master branch.
+15. Repeat steps 3 - 14 regularly to ensure updates are saved and correctly version controlled in GitHub.
+
 ## Testing ##
 
 - Testing information can be found in a separate [testing.md](testing.md) file.
 
 ## Bugs ##
 
-For every bug we found while in development process, we have logged an [incident](https://github.com/simonjvardy/MS-1/issues) report.
-Bug we have managed to fix are now marked as [closed](https://github.com/simonjvardy/MS-1/issues?q=is%3Aissue+is%3Aclosed).
+To manage bugs and issues tracking, the default GitHub [bug_report.md template]() has been created and activated within the repository settings Features > Issues section.
+All new bugs and issues are tracked within the GitHub repository [Issues section](https://github.com/simonjvardy/MS-1/issues) .
+Open issues are managed within the [GitHub Projects section](https://github.com/simonjvardy/MS-1/projects/1)
+
+Each branch is then merged into the master branch using a pull request that is linked to the open issue. Once merged, and the bug report closed, the branch is deleted.
+
+FIxed bugs and issues are marked as [closed](https://github.com/simonjvardy/MS-1/issues?q=is%3Aissue+is%3Aclosed).
 
 ## Deployment ##
 
@@ -270,4 +315,5 @@ The following website was used for design ideas and a clean modern look:
 - [Gary Simons](https://github.com/GarySimons/WildBunch-Florist) for further README.md content ideas.
 - [Software Testing Fundamentals (STF)](http://softwaretestingfundamentals.com/) for an excellent guide on building testing processes.
 - [CoSchedule Blog Post](https://coschedule.com/blog/color-psychology-marketing/) for help with colour psychology in marketing.
+- [Git - Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) documentation for help understanding how to manage branches in GitHub / Gitpod.
 ---
