@@ -32,6 +32,7 @@ blend well with the aviation and sky themes.*
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
   - [Version Control](#version-control)
+  - [Project Management](#project-management)
   - [Testing](#testing)
   - [Bugs](#bugs)
   - [Deployment](#deployment)
@@ -218,13 +219,30 @@ The following worflow steps are used to create and update branches within Gitpod
 14. Use the `git push` on each branch to update the relevant GiHub Branches to the same commit as the Master branch.
 15. Repeat steps 3 - 14 regularly to ensure updates are saved and correctly version controlled in GitHub.
 
+## Project Management ##
+
+GitHub [Projects](https://github.com/simonjvardy/MS-1/projects/1) are used to organise the planning and development of the website using the Automated kanban template.
+The following project cards are used to manage the tasks:
+- Backlog - this card is used to capture ideas for project tasks.
+- To Do - this is the current work queue for the project.
+- In Progress - this is the list of tasks currently in work.
+    - New issues and pull requests are automatically added to this column using project card automation options.
+- Review in progress - Pull requests are automatically moved here by project automation options when the reviewer requests any changes to be carried out.
+    - As there is only one contributor on this project currently, most pull requests bypass this card as the request is usually reviewed and merged in the same step.
+- Reviewer approved - Pull requests are automatically moved here by project automation options when they meet the minimum number of required reviews.
+    - As there is only one contributor currently, most pull requests bypass this card as the request is usually reviewed and merged in the same step.
+- Testing - Testing tasks list
+- Done - completed tasks
+
+Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text which creates a "to do" list on cards as a way of spliting a single complex task into a list of steps to be completed.
+
 ## Testing ##
 
 - Testing information can be found in a separate [testing.md](testing.md) file.
 
 ## Bugs ##
 
-To manage bugs and issues tracking, the default GitHub [bug_report.md template]() has been created and activated within the repository settings Features > Issues section.
+To manage bugs and issues tracking, the default GitHub [bug_report.md template](https://github.com/simonjvardy/MS-1/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) has been created and activated within the repository settings Features > Issues section.
 All new bugs and issues are tracked within the GitHub repository [Issues section](https://github.com/simonjvardy/MS-1/issues) .
 Open issues are managed within the [GitHub Projects section](https://github.com/simonjvardy/MS-1/projects/1)
 
