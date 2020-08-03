@@ -196,10 +196,10 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 ## Version Control ##
 Version control for this repository is managed within GitHub and Gitpod using separate [branches](https://github.com/simonjvardy/MS-1/branches)  used to work on specific aspects of the project.
 The following describes the repository branch structure:
-	• Master - this is the default branch and the source for the repository deployment.
-		○ Documentation - this branch is used for updating the README.md and testing.md documentation only.
-		○ Development - this branch is used as the main working branch for the website development
-		○ Each individual bug fixes are raised within their own separate branches using the naming convention **<GitHub Issue ID Number>-<bug fix description>** e.g. branch name ***12-correct-social-links*** 
+- Master - this is the default branch and the source for the repository deployment.
+    - Documentation - this branch is used for updating the README.md and testing.md documentation only.
+	- Development - this branch is used as the main working branch for the website development
+	- Each individual bug fixes are raised within their own separate branches using the naming convention **\<GitHub Issue ID Number>-\<bug fix description>** e.g. branch name ***12-correct-navbar-links*** 
 
 The following worflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
 1. Open Gitpod from Github using the Gitpod button. This needs to only be done once at the start of the project.
