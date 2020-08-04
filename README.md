@@ -21,6 +21,7 @@ blend well with the aviation and sky themes.*
     - [Site Owner Goals](#site-owner-goals)
     - [User Requirements and Expectations](#user-requirements-and-expectations)
   - [Design Choices](#design-choices)
+    - [Topology](#topology)
     - [Fonts](#fonts)
     - [Colours](#colours)
     - [Wireframes](#wireframes)
@@ -42,6 +43,8 @@ blend well with the aviation and sky themes.*
     - [Colour](#colour)
     - [Image editing](#image-editing)
     - [Acknowledgements](#acknowledgements)
+
+---
 
 ## UX (User Experience) ##
 
@@ -66,22 +69,22 @@ We achieve this by:
 
 ### User Stories ###
 
-- As a **user**, I can see a hero image welcoming the user to the site
-- As a **user**, I can see a CTA to learn more about the business
-- As a **user** I can scroll back to the top of a page with the click of a button
-- As a **user**, I want to see a navigation bar at the top of the page where I can navigate to each of the different site pages
-- As a **user**, I can see a company logo or name in the navigation bar
-- As a **user**, I can see a navigation bar that remains in view when the page is scrolled down on desktop view
-- As a **user**, I can see a collapsed navigation bar icon that opens up to give access to the site navigation links when clicked
-- As a **user**, I can see a page describing examples of the work
-- As a **user**, I can see a page describing the services provided by the business
-- As a **user**, I can see a page describing how the company can help with the client's projects
-- As a **user**, I can read a biography of key personnel in the company
-- As a **user**, I can contact the business by submitting my details with a message
-- As a **user**, I want to know where the business is located on a map
-- As a **user**, I can see the website privacy policy and terms and conditions.
-- As a **user**, I can see a site map with links to all the site pages
-- As a **user**, I can contact the business using their social media channels, call them or email.
+- As a **user**, I can see a **hero image** welcoming the user to the site.
+- As a **user**, I can see a **CTA** to learn more about the business.
+- As a **user** I can scroll back to the top of a page with the click of a button.
+- As a **user**, I want to see a **navigation bar** at the top of the page where I can navigate to each of the different site pages.
+- As a **user**, I can see a **company logo** or name in the navigation bar.
+- As a **user**, I can see a **navigation bar** that remains in view when the page is scrolled down on desktop view.
+- As a **user**, I can see a **collapsed navigation bar icon** that opens up to give access to the site navigation links when clicked.
+- As a **user**, I can see a page describing **examples of the work**.
+- As a **user**, I can see a page describing the **services** provided by the business.
+- As a **user**, I can see a page describing how the company can help with the client's projects.
+- As a **user**, I can read a **biography** of **key personnel** in the company.
+- As a **user**, I can **contact** the business by submitting my details with a message.
+- As a **user**, I want to know where the business is **located on a map**.
+- As a **user**, I can see the website **privacy policy** and **terms and conditions**.
+- As a **user**, I can see a **site map** with **links** to all the site pages.
+- As a **user**, I can contact the business using their **social media** channels, **call** them or **email**.
 
 ### Site Owner Goals ###
 
@@ -106,9 +109,11 @@ We achieve this by:
   - **Welcome** section with a welcome message
   - ...
   - ...
-  - **Contact us** section displaying google maps with the coffee shop location
-- In the **Footer** You should see self-explanatory icons allowing the user to connect them with the shop's social media channels.
-  
+  - **Contact us** section displaying google maps with the business location
+- In the **Footer** You should see self-explanatory icons allowing the user to connect them with the business' social media channels.
+
+--- 
+
 ## Design Choices ##
 
 ### Topology ###
@@ -170,13 +175,13 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery)
   - Used for icons to enhance headings and add emphasis to text.
 - [Google fonts](https://fonts.google.com/)
-  - Used for the website fonts
-- [Colour editor](https://coolors.co/)
-  - Used to choose the website colour scheme
-- [Image Resizing](https://www.birme.net/)
+  - Used for the website fonts.
+- [Coolors](https://coolors.co/)
+  - An online tool used to choose the website colour scheme.
+- [Birme](https://www.birme.net/)
   - An online bulk image resizing tool.
 - [Favicons](https://favicon.io/)
-  - Used to generate a favicon for the website title
+  - Used to generate a favicon for the website title.
 - [Am I Responsive?](http://ami.responsivedesign.is/)
   - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
 - [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
@@ -202,16 +207,16 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 ---
 
 ## Version Control ##
-Version control for this repository is managed within GitHub and Gitpod using separate [branches](https://github.com/simonjvardy/MS-1/branches)  used to work on specific aspects of the project.
+**Version control** for this repository is managed within **GitHub** and **Gitpod** using separate [branches](https://github.com/simonjvardy/MS-1/branches)  used to work on specific aspects of the project.
 The following describes the repository branch structure:
-- Master - this is the default branch and the source for the repository deployment.
-    - Documentation - this branch is used for updating the README.md and testing.md documentation only.
-	- Development - this branch is used as the main working branch for the website development
-	- Each individual bug fixes are raised within their own separate branches using the naming convention **\<GitHub Issue ID Number>-\<bug fix description>** e.g. branch name ***12-correct-navbar-links*** 
+- **Master** - this is the default branch and the source for the repository deployment.
+    - **Documentation** - this branch is used for updating the README.md and testing.md documentation only.
+	- **Development** - this branch is used as the main working branch for the website development
+	- Each individual **bug fixes** are raised within their own **separate branches** using the naming convention **\<GitHub Issue ID Number>-\<bug fix description>** e.g. branch name ***12-correct-navbar-links*** 
 
 The following worflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
-1. Open Gitpod from Github using the Gitpod button. This needs to only be done once at the start of the project.
-2. Start the Gitpod Workspace which opens an IDE editor window.
+1. Open **Gitpod** from **Github** using the Gitpod button. This needs to only be done **once** at the start of the project.
+2. Start the Gitpod Workspace which opens an **online IDE editor** window.
 3. For changes to be made to any documentation files, the git command `git checkout documentation` is used to checkout and switch to the documentation branch.
 4. For changes to be made to all other files, the git command `git checkout development` is used to checkout and switch to the development branch.
 5. New or modified files are staged using the `git add .` command
@@ -225,6 +230,8 @@ The following worflow steps are used to create and update branches within Gitpod
 13. Now switch to the other branches in Gitpod and use the `git merge origin/master` command to update each branch in turn.
 14. Use the `git push` on each branch to update the relevant GiHub Branches to the same commit as the Master branch.
 15. Repeat steps 3 - 14 regularly to ensure updates are saved and correctly version controlled in GitHub.
+
+---
 
 ## Project Management ##
 
@@ -243,10 +250,12 @@ The following project cards are used to manage the tasks:
 
 Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text which creates a "to do" list on cards as a way of spliting a single complex task into a list of steps to be completed.
 
+---
 ## Testing ##
 
 - Testing information can be found in a separate [testing.md](testing.md) file.
 
+---
 ## Bugs ##
 
 To manage bugs and issues tracking, the default GitHub [bug_report.md template](https://github.com/simonjvardy/MS-1/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) has been created and activated within the repository settings Features > Issues section.
@@ -256,6 +265,8 @@ Open issues are managed within the [GitHub Projects section](https://github.com/
 Each branch is then merged into the master branch using a pull request that is linked to the open issue. Once merged, and the bug report closed, the branch is deleted.
 
 FIxed bugs and issues are marked as [closed](https://github.com/simonjvardy/MS-1/issues?q=is%3Aissue+is%3Aclosed).
+
+---
 
 ## Deployment ##
 
@@ -291,7 +302,7 @@ Copy the following code and input it into your terminal to clone [repo name]:
 
 ### Images ###
 
-You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
+You can find the images used for the site [here](assets/images). We have sourced them through various websites, which are free to use:
 
 - [Pikrepo](https://www.pikrepo.com/)
 - [Flickr](https://www.flickr.com/)
