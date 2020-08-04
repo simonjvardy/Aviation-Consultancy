@@ -45,7 +45,7 @@ blend well with the aviation and sky themes.*
 
 ## UX (User Experience) ##
 
-## Project Goals ##
+### Project Goals ###
 
 The **goal** of this project is to build a website which allows ...
 
@@ -59,12 +59,12 @@ We achieve this by:
 - Providing an option to the customers to ...
 - Providing an option to the customers to ...
 
-## User Goals ##
+### User Goals ###
 
 - **Understand** whether the provided services solve their problems or pain points.
 - **Contact** the business to submit a project proposal.
 
-## User Stories ##
+### User Stories ###
 
 - As a **user**, I can see a hero image welcoming the user to the site
 - As a **user**, I can see a CTA to learn more about the business
@@ -83,7 +83,7 @@ We achieve this by:
 - As a **user**, I can see a site map with links to all the site pages
 - As a **user**, I can contact the business using their social media channels, call them or email.
 
-## Site Owner Goals ##
+### Site Owner Goals ###
 
 - As a **site owner**, I want to create an interactive website allowing the user to easily understand the services available
 - As a **site owner**, I want the user to be able to see a location of the coffee shop on the google maps.
@@ -92,7 +92,7 @@ We achieve this by:
 - As a **site owner**, I want the user to be able to understand the company values.
 - As a **site owner**, I want the user to be able to the purpose of the business.
 
-## User Requirements and Expectations ##
+### User Requirements and Expectations ###
 
 - **Header**, **Main body** divided into section and **Footer**
 - In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
@@ -110,6 +110,9 @@ We achieve this by:
 - In the **Footer** You should see self-explanatory icons allowing the user to connect them with the shop's social media channels.
   
 ## Design Choices ##
+
+### Topology ###
+
 
 ### Fonts ###
 
@@ -157,9 +160,9 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 ### Tools ###
 
 - [Git](https://git-scm.com/)
-  - Used for version control
+  - Git was used for version control by utilising the Gitpod terminal to commit to Git and push to GitHub.
 - [GitHub](https://github.com/)
-  - Used to store, host and deploy the project files and source code
+  - Used to store, host and deploy the project files and source code after being pushed from Git.
 - [Gitpod](https://www.gitpod.io/)
   - An online IDE linked to the GitHub repository used for the majority of the code development.
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -174,6 +177,10 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
   - An online bulk image resizing tool.
 - [Favicons](https://favicon.io/)
   - Used to generate a favicon for the website title
+- [Am I Responsive?](http://ami.responsivedesign.is/)
+  - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
+- [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
+  - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
 
 ---
 
@@ -334,4 +341,6 @@ The following website was used for design ideas and a clean modern look:
 - [Software Testing Fundamentals (STF)](http://softwaretestingfundamentals.com/) for an excellent guide on building testing processes.
 - [CoSchedule Blog Post](https://coschedule.com/blog/color-psychology-marketing/) for help with colour psychology in marketing.
 - [Git - Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) documentation for help understanding how to manage branches in GitHub / Gitpod.
+- [Stack Overflow](https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches) for ideas and help with GitHub branch naming conventions.
+- [digitaljhelms](https://gist.github.com/digitaljhelms/4287848) for ideas and help with GitHub branch naming conventions.
 ---
