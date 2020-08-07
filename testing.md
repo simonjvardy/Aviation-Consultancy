@@ -25,19 +25,22 @@
 
 ---
 ## Automated Testing ##
----
 
 ### Validation Services ###
 
 The following **validation services** and **linter** were used to check the validity of the website code.
 
-- [W3C Markup Validation](https://validator.w3.org/) was used to validate HTML.
-- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
-- [JSHint](https://jshint.com/) was used to validate JavaScript.
+- [W3C Markup Validation](https://validator.w3.org/) 
+  - This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) 
+  - This validator checks Cascading Style Sheets (CSS) and (X)HTML documents with style sheets.
+- [JSHint](https://jshint.com/)
+  - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
+- [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
+  - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
 
 ---
 ## Manual Testing ##
----
 
 ### Unit Testing ###
 [Unit Testing document](testing/MS1-unit-test-plan.pdf) containing:
@@ -94,7 +97,6 @@ The following **validation services** and **linter** were used to check the vali
 
 ---
 ## Bugs discovered ##
----
 
 The issue log is managed on the [GitHub Project Issues section](https://github.com/simonjvardy/MS-1/issues) using the standard GitHub [bug\_report.md template](https://github.com/simonjvardy/MS-1/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
 
