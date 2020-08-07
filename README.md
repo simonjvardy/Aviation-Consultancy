@@ -88,12 +88,12 @@ We achieve this by:
 
 ### Site Owner Goals ###
 
-- As a **site owner**, I want to create an interactive website allowing the user to easily understand the services available
-- As a **site owner**, I want the user to be able to see a location of the coffee shop on the google maps.
-- As a **site owner**, I want the user to be able to submit a contact request with additional text. 
-- As a **site owner**, I want the user to see the unique selling points of the business
-- As a **site owner**, I want the user to be able to understand the company values.
-- As a **site owner**, I want the user to be able to the purpose of the business.
+- As a **site owner**, I want to create an **interactive website** allowing the user to easily understand the services available
+- As a **site owner**, I want the **user** to be able to see a **location** of the business on the google maps.
+- As a **site owner**, I want the **user** to be able to **submit** a **contact request** with **additional text**. 
+- As a **site owner**, I want the **user** to see the **unique selling points** of the business
+- As a **site owner**, I want the **user** to be able to understand the **company values**.
+- As a **site owner**, I want the **user** to be able to the **purpose** of the business.
 
 ### User Requirements and Expectations ###
 
@@ -184,8 +184,6 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
   - Used to generate a favicon for the website title.
 - [Am I Responsive?](http://ami.responsivedesign.is/)
   - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
-- [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
-  - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
 
 ---
 
@@ -217,19 +215,19 @@ The following describes the repository branch structure:
 The following worflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
 1. Open **Gitpod** from **Github** using the Gitpod button. This needs to only be done **once** at the start of the project.
 2. Start the Gitpod Workspace which opens an **online IDE editor** window.
-3. For changes to be made to any documentation files, the git command `git checkout documentation` is used to checkout and switch to the documentation branch.
-4. For changes to be made to all other files, the git command `git checkout development` is used to checkout and switch to the development branch.
-5. New or modified files are staged using the `git add .` command
-6. The changes are committed using `git commit -m "<commit message>"` command.
-7. The committed changes are pushed from Gitpod to GitHub using the `git push` command.
-8. Opening the repository in Github,  a new pull request  is created for the updated branch and assigned to the Development project.
-9. The changes are reviewed to ensure there are no conflicts between the updated branch and the Master branch
-10. The changes are then merged into the Master branch and the merge request is closed. The Project entry is automatically moved to the Done card.
-11. To update Gitpod with the latest commits From GitHub, the `git checkout master` command is used to checkout and switch to the master branch.
-12. Use the `git pull` command to update the master branch and reset the pointer
-13. Now switch to the other branches in Gitpod and use the `git merge origin/master` command to update each branch in turn.
-14. Use the `git push` on each branch to update the relevant GiHub Branches to the same commit as the Master branch.
-15. Repeat steps 3 - 14 regularly to ensure updates are saved and correctly version controlled in GitHub.
+3. For changes to be made to any **documentation files**, the git command `git checkout documentation` is used to checkout and switch to the **documentation branch**.
+4. For changes to be made to **all other files**, the git command `git checkout development` is used to checkout and switch to the **development branch**.
+5. **New** or **modified** files are **staged** using the `git add .` command
+6. The changes are **committed** using `git commit -m "<commit message>"` command.
+7. The **committed** changes are **pushed** from Gitpod to GitHub using the `git push` command.
+8. Opening the repository in Github,  a new **pull request** is created for the updated branch and assigned to the **Development project**.
+9. The changes are **reviewed** to ensure there are **no conflicts** between the **updated branch** and the **Master branch**.
+10. The changes are then **merged** into the **Master branch** and the merge request is **closed**. The **Project entry** is **automatically** moved to the **Done** card.
+11. To update Gitpod with the **latest commits** From GitHub, the `git checkout master` command is used to checkout and switch to the master branch.
+12. Use the `git pull` command to update the master branch and **reset the pointer**.
+13. Now **switch** to the **other branches** in Gitpod and use the `git merge origin/master` command to **update each branch in turn**.
+14. Use the `git push` on **each branch** to update the relevant GiHub Branches to the **same commit** as the **Master branch**.
+15. **Repeat steps 3 - 14 regularly** to ensure updates are **saved** and **correctly version controlled** in GitHub.
 
 ---
 
@@ -237,18 +235,18 @@ The following worflow steps are used to create and update branches within Gitpod
 
 GitHub [Projects](https://github.com/simonjvardy/MS-1/projects/1) are used to organise the planning and development of the website using the Automated kanban template.
 The following project cards are used to manage the tasks:
-- Backlog - this card is used to capture ideas for project tasks.
-- To Do - this is the current work queue for the project.
-- In Progress - this is the list of tasks currently in work.
+- **Backlog** - this card is used to capture ideas for project tasks.
+- **To Do** - this is the current work queue for the project.
+- **In Progress** - this is the list of tasks currently in work.
     - New issues and pull requests are automatically added to this column using project card automation options.
-- Review in progress - Pull requests are automatically moved here by project automation options when the reviewer requests any changes to be carried out.
+- **Review in progress** - Pull requests are automatically moved here by project automation options when the reviewer requests any changes to be carried out.
     - As there is only one contributor on this project currently, most pull requests bypass this card as the request is usually reviewed and merged in the same step.
-- Reviewer approved - Pull requests are automatically moved here by project automation options when they meet the minimum number of required reviews.
+- **Reviewer approved** - Pull requests are automatically moved here by project automation options when they meet the minimum number of required reviews.
     - As there is only one contributor currently, most pull requests bypass this card as the request is usually reviewed and merged in the same step.
-- Testing - Testing tasks list
-- Done - completed tasks
+- **Testing** - Testing tasks list
+- **Done** - completed tasks
 
-Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text which creates a "to do" list on cards as a way of spliting a single complex task into a list of steps to be completed.
+Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text which creates a **"to do" list** on cards as a way of spliting a single complex task into a list of steps to be completed.
 
 ---
 ## Testing ##
@@ -262,7 +260,7 @@ To manage bugs and issues tracking, the default GitHub [bug_report.md template](
 All new bugs and issues are tracked within the GitHub repository [Issues section](https://github.com/simonjvardy/MS-1/issues) .
 Open issues are managed within the [GitHub Projects section](https://github.com/simonjvardy/MS-1/projects/1)
 
-Each branch is then merged into the master branch using a pull request that is linked to the open issue. Once merged, and the bug report closed, the branch is deleted.
+Each branch is then **merged** into the **master branch** using a **pull request** that is **linked** to the **open issue**. Once merged, and the bug report **closed**, the branch is **deleted**.
 
 FIxed bugs and issues are marked as [closed](https://github.com/simonjvardy/MS-1/issues?q=is%3Aissue+is%3Aclosed).
 
