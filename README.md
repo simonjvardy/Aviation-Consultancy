@@ -118,6 +118,7 @@ We achieve this by:
 
 ### Topology ###
 
+![topology](wireframes/topology.png)
 
 ### Fonts ###
 
@@ -184,7 +185,10 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
   - Used to generate a favicon for the website title.
 - [Am I Responsive?](http://ami.responsivedesign.is/)
   - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
-
+- [Microsoft Visio](https://www.microsoft.com/en-gb/microsoft-365/visio/flowchart-software)
+  - A software tool for drawing diagrams and flowcharts which is part of the Microsoft Office365 suite.
+- [XML-Sitemaps.com](https://www.xml-sitemaps.com/)
+  - An online .xml sitemap generator.
 ---
 
 ## Features ##
