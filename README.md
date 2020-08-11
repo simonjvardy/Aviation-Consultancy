@@ -217,21 +217,33 @@ The following describes the repository branch structure:
 	- Each individual **bug fixes** are raised within their own **separate branches** using the naming convention **\<GitHub Issue ID Number>-\<bug fix description>** e.g. branch name ***12-correct-navbar-links*** 
 
 The following worflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
+
+#### Gitpod Workspaces ####
 1. Open **Gitpod** from **Github** using the Gitpod button. This needs to only be done **once** at the start of the project.
 2. Start the Gitpod Workspace which opens an **online IDE editor** window.
+
+#### Branches ####
 3. For changes to be made to any **documentation files**, the git command `git checkout documentation` is used to checkout and switch to the **documentation branch**.
 4. For changes to be made to **all other files**, the git command `git checkout development` is used to checkout and switch to the **development branch**.
-5. **New** or **modified** files are **staged** using the `git add .` command
-6. The changes are **committed** using `git commit -m "<commit message>"` command.
-7. The **committed** changes are **pushed** from Gitpod to GitHub using the `git push` command.
-8. Opening the repository in Github,  a new **pull request** is created for the updated branch and assigned to the **Development project**.
-9. The changes are **reviewed** to ensure there are **no conflicts** between the **updated branch** and the **Master branch**.
-10. The changes are then **merged** into the **Master branch** and the merge request is **closed**. The **Project entry** is **automatically** moved to the **Done** card.
-11. To update Gitpod with the **latest commits** From GitHub, the `git checkout master` command is used to checkout and switch to the master branch.
-12. Use the `git pull` command to update the master branch and **reset the pointer**.
-13. Now **switch** to the **other branches** in Gitpod and use the `git merge origin/master` command to **update each branch in turn**.
-14. Use the `git push` on **each branch** to update the relevant GiHub Branches to the **same commit** as the **Master branch**.
-15. **Repeat steps 3 - 14 regularly** to ensure updates are **saved** and **correctly version controlled** in GitHub.
+5. To create a **new branch**, use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
+
+#### Working within a branch ####
+6. **New** or **modified** files are **staged** using the `git add .` command
+7. The changes are **committed** using `git commit -m "<commit message>"` command.
+8. If the changes are in a newly created branch, the **committed** changes are **pushed** from Gitpod to GitHub using the `git push --set-upstream origin <branch-name>` command as there is currently no upstream branch in the remote repository.
+9. For branches that have already been synchronised, the **committed** changes are **pushed** from Gitpod to GitHub using the `git push` command.
+
+#### Merging branches in GitHub ####
+10. Opening the repository in Github, a new **pull request** is created for the updated branch and assigned to the **Development project**.
+11. The changes are **reviewed** to ensure there are **no conflicts** between the **updated branch** and the **Master branch**.
+12. The changes are then **merged** into the **Master branch** and the merge request is **closed**. The **Project entry** is **automatically** moved to the **Done** card.
+
+#### Update Gitpod with the latest GitHub commits ####
+13. To update Gitpod with the **latest commits** From GitHub, the `git checkout master` command is used to checkout and switch to the master branch.
+14. Use the `git pull` command to update the master branch and **reset the pointer**.
+15. Now **switch** to the **other branches** in Gitpod using the `git checkout <branch-name>` command and use the `git merge origin/master` command to **update each branch in turn**.
+16. Use the `git push` on **each branch** to update the relevant GiHub Branches to the **same commit** as the **Master branch**.
+17. **Repeat steps 3 - 17 regularly** to ensure updates are **saved** and **correctly version controlled** in GitHub.
 
 ---
 
@@ -357,5 +369,6 @@ The following website was used for design ideas and a clean modern look:
 - [Git - Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) documentation for help understanding how to manage branches in GitHub / Gitpod.
 - [Stack Overflow](https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches) for ideas and help with GitHub branch naming conventions.
 - [digitaljhelms](https://gist.github.com/digitaljhelms/4287848) for ideas and help with GitHub branch naming conventions.
-- [Code Institute July 2020 Hackathon BI Team 5](https://github.com/AlexNexton/BI-Team-5) who gave me the motivation, tools and experience to start this Milestone Project 1 - Cian, Neringa, Mikael and Dermot you are awesome; thank you!
+- [Code Institute July 2020 Hackathon BI Team 5](https://github.com/AlexNexton/BI-Team-5) who gave me the motivation, tools and experience to start this Milestone Project 1 - Cian, Neringa, Micke and Dermot you are awesome; thank you!
+- [GDPR.EU Privacy Notice Template](https://gdpr.eu/wp-content/uploads/2019/01/Our-Company-Privacy-Policy.pdf) was used to create the content for the Privacy Policy page.
 ---
