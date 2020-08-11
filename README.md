@@ -337,6 +337,7 @@ The following websites were used for design and image ideas based on similar bus
 - [Aviation Consulting Services](https://aviationconsultingservices.com.au/)
 - [ICF](https://www.icf.com/)
 - [Alton Aviation Consultants](https://altonaviation.com/)
+- [VJL Consulting Ltd](https://vjlconsult.com)
 
 The following website was used for design ideas and a clean modern look:
 - [Greenhouse Digital Marketing Agency](https://pages.ghagency.com/)
@@ -356,4 +357,5 @@ The following website was used for design ideas and a clean modern look:
 - [Git - Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) documentation for help understanding how to manage branches in GitHub / Gitpod.
 - [Stack Overflow](https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches) for ideas and help with GitHub branch naming conventions.
 - [digitaljhelms](https://gist.github.com/digitaljhelms/4287848) for ideas and help with GitHub branch naming conventions.
+- [Code Institute July 2020 Hackathon BI Team 5](https://github.com/AlexNexton/BI-Team-5) who gave me the motivation, tools and experience to start this Milestone Project 1 - Cian, Neringa, Mikael and Dermot you are awesome; thank you!
 ---
