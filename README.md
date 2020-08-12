@@ -263,6 +263,7 @@ The following project cards are used to manage the tasks:
 - **Done** - completed tasks
 
 Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text which creates a **"to do" list** on cards as a way of spliting a single complex task into a list of steps to be completed.
+
 ![GitHub Projects](assets/images/github-projects.png)
 ---
 ## Testing ##
