@@ -371,4 +371,5 @@ The following website was used for design ideas and a clean modern look:
 - [digitaljhelms](https://gist.github.com/digitaljhelms/4287848) for ideas and help with GitHub branch naming conventions.
 - [Code Institute July 2020 Hackathon BI Team 5](https://github.com/AlexNexton/BI-Team-5) who gave me the motivation, tools and experience to start this Milestone Project 1 - Cian, Neringa, Micke and Dermot you are awesome; thank you!
 - [GDPR.EU Privacy Notice Template](https://gdpr.eu/wp-content/uploads/2019/01/Our-Company-Privacy-Policy.pdf) was used to create the content for the Privacy Policy page.
+- [TutorialRepublic](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/) for Boostrap help and tutorials.
 ---
