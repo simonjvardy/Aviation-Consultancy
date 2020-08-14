@@ -1,9 +1,11 @@
-# ![Logo](/wireframes/) #
+# Aviation Consultancy #
 
 ***Aviation Consultancy LLC** is (fictitious) consultancy business specialising in aircraft maintenance data and regulatory compliance, based at 
 London Heathrow Airport.
 I designed the website to be a showcase of the available services and a means for new customers to make contact with the business allowing project and service requests to be submitted. 
-It's not required to sell any products directly but describes the company values, unique selling points and the problems the company can solve for its clients.*
+It's services are B2B so not required to sell any products directly via the site.*
+
+![Logo](/wireframes/) 
 
 *I created the Aviation Consultancy LLC logo to present a professional, trustworthy image based on research of similar contemporary consultancy service websites 
 (details of these websites can be found in the Credits section). The colour scheme was chosen from the Blue / Green colours to reflect a calm balanced approach as well as to 
@@ -25,6 +27,7 @@ blend well with the aviation and sky themes.*
     - [Fonts](#fonts)
     - [Colours](#colours)
     - [Wireframes](#wireframes)
+      - [Hand drawn drafts](#hand-drawn-drafts)
   - [Technologies](#technologies)
     - [Languages](#languages)
     - [Libraries](#libraries)
@@ -32,6 +35,10 @@ blend well with the aviation and sky themes.*
   - [Features](#features)
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
+  - [SEO](#seo)
+    -[HTML Sitemap links](#html-sitemap-links)
+    -[XML Sitemap file](#xml-sitemap-file)
+    -[Google Search Console](#google-search-console)
   - [Version Control](#version-control)
   - [Project Management](#project-management)
   - [Testing](#testing)
@@ -50,17 +57,19 @@ blend well with the aviation and sky themes.*
 
 ### Project Goals ###
 
-The **goal** of this project is to build a website which allows ...
+The **goal** of this project is to build a website which allows Aviation Consultancy LLC to showcase its B2B services to potential business customers.
 
 The features on the website will:
 
-- Give customers more ways to interact ... (online bookings, social media, phone,  email)
-- Enable the business to better manage the flow of customers ...
+- Give business customers more ways to interact with Aviation Consultancy LLC (contact form, social media, phone,  email).
+- Enable the business to showcase their services and key staff members.
 
-We achieve this by:
+I achieve this by:
 
-- Providing an option to the customers to ...
-- Providing an option to the customers to ...
+- Providing contact details and social media links in the footer section of each page.
+- Providing an option to the customers to submit their contact and request details in a form.
+- Providing a summary of the consultancy services provided by Aviation Consultancy LLC
+- Providing an option to the customers to see staff member biographies and links to social media to findo out more.
 
 ### User Goals ###
 
@@ -69,16 +78,16 @@ We achieve this by:
 
 ### User Stories ###
 
-- As a **user**, I can see a **hero image** welcoming the user to the site.
-- As a **user**, I can see a **CTA** to learn more about the business.
-- As a **user** I can scroll back to the top of a page with the click of a button.
 - As a **user**, I want to see a **navigation bar** at the top of the page where I can navigate to each of the different site pages.
-- As a **user**, I can see a **company logo** or name in the navigation bar.
 - As a **user**, I can see a **navigation bar** that remains in view when the page is scrolled down on desktop view.
-- As a **user**, I can see a **collapsed navigation bar icon** that opens up to give access to the site navigation links when clicked.
-- As a **user**, I can see a page describing **examples of the work**.
+- As a **user**, I can see a **collapsed navigation bar icon** on mobile devices that opens up to give access to the site navigation links when clicked.
+- As a **user**, I can see a **company logo** or name in the navigation bar.
+- As a **user**, I can see a **hero image** welcoming the user to the site.
+- As a **user**, I can see **Call To Actions (CTA)** to learn more about the business and to make contact with the business.
+- As a **user**, I can see a carousel containing **customer testimonials** or **inspirational quotes**.
+- As a **user**, I can scroll back to the top of a page with the **click of a button**.
 - As a **user**, I can see a page describing the **services** provided by the business.
-- As a **user**, I can see a page describing how the company can help with the client's projects.
+- As a **user**, I can see a page describing the **company values**.
 - As a **user**, I can read a **biography** of **key personnel** in the company.
 - As a **user**, I can **contact** the business by submitting my details with a message.
 - As a **user**, I want to know where the business is **located on a map**.
@@ -93,24 +102,7 @@ We achieve this by:
 - As a **site owner**, I want the **user** to be able to **submit** a **contact request** with **additional text**. 
 - As a **site owner**, I want the **user** to see the **unique selling points** of the business
 - As a **site owner**, I want the **user** to be able to understand the **company values**.
-- As a **site owner**, I want the **user** to be able to the **purpose** of the business.
-
-### User Requirements and Expectations ###
-
-- **Header**, **Main body** divided into section and **Footer**
-- In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
-  - **Home section** (top of the site)
-  - ...
-  - ...
-  - **Contact us** section
-- On the right side of the **Header** you should see additional ...
-
-- In the **Main body** we should see:
-  - **Welcome** section with a welcome message
-  - ...
-  - ...
-  - **Contact us** section displaying google maps with the business location
-- In the **Footer** You should see self-explanatory icons allowing the user to connect them with the business' social media channels.
+- As a **site owner**, I want the **user** to be able to the understand the **purpose** of the business.
 
 --- 
 
@@ -137,8 +129,16 @@ These colours will compliment each other well when used across the site creating
 
 ### Wireframes ###
 
-We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/). We were focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+I designed the site mock-ups originally using pen and paper and then developing the designs further using [balsamiq wireframes](https://balsamiq.com/).
 
+I'm focusing on defining the basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+
+#### Hand drawn drafts ####
+
+The original hand drawn sketch wireframes were created as quick and rough method to try out page formatting ideas to form a basis for creating the wireframe within balsamic.
+
+They represent the early stages of the design process for the website as ideas started to form and the flow of the design process from idea to finished website.
+- []
 ---  
 
 ## Technologies ##
@@ -186,7 +186,7 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 - [Am I Responsive?](http://ami.responsivedesign.is/)
   - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
 - [Microsoft Visio](https://www.microsoft.com/en-gb/microsoft-365/visio/flowchart-software)
-  - A software tool for drawing diagrams and flowcharts which is part of the Microsoft Office365 suite.
+  - A software tool for drawing diagrams and flowcharts which is part of the Microsoft Office365 suite used to create the website topology chart.
 - [XML-Sitemaps.com](https://www.xml-sitemaps.com/)
   - An online .xml sitemap generator.
 ---
@@ -195,16 +195,49 @@ We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/)
 
 ### Features Implemented ###
 
-- Responsive design
+- Responsive mobile first design
 - User friendly display
 - Navbar with easy navigation
-- ...
-- ...
+- CTAs encourage customers to make contact
+- Contact Us page with a form to submit customer details
+- Embedded Google Maps to show the business location
 - Social media links
+- Bootstrap accordions to assist with readability of large amounts of text on mobile displays
+- Sitemap features for SEO enhancement
   
 ### Future Features ###
 
-- ...
+- Blog / news page
+- Case studies page
+- How We Work page
+
+---
+
+## SEO ##
+
+Search Engine Optimisation for the site was provided in three complementary ways:
+ - HTML Sitemap links
+ - XML sitemap file saved in the root directory
+ - Google Search Console
+ 
+### HTML Sitemap links ###
+- **Secondary** HTML links to each page in the website were added to the footer section of each site page to allow users an alternative means of navigating the site easily.
+
+### XML Sitemap file ###
+- A sitemap.xml file was created to help search engines find, crawl and index the website more easily. It was created by using XML-Sitemaps.com and entering the URL for the deployed website and letting it automatically generate the required xml data for the whole site.
+The file was then saved in the GitHub repository root directory.
+
+- The following steps were used to generate the sitemap.xml file:
+
+
+### Google Search Console ###
+- Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
+
+- The following steps were used to perfom the indexing tests:
+
+
+Even though this website has a small number of pages and have navigation links on each page making the Sitemap largely unnecessary, I felt is was a good experience and good practice to add these features in.
+Note: I haven't added a robots.txt file yet but may add this in the future when I understand more about search engine optimisation techniques.
 
 ---
 
@@ -265,6 +298,7 @@ The following project cards are used to manage the tasks:
 Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text which creates a **"to do" list** on cards as a way of spliting a single complex task into a list of steps to be completed.
 
 ![GitHub Projects](assets/images/github-projects.png)
+
 ---
 ## Testing ##
 
@@ -373,4 +407,9 @@ The following website was used for design ideas and a clean modern look:
 - [Code Institute July 2020 Hackathon BI Team 5](https://github.com/AlexNexton/BI-Team-5) who gave me the motivation, tools and experience to start this Milestone Project 1 - Cian, Neringa, Micke and Dermot you are awesome; thank you!
 - [GDPR.EU Privacy Notice Template](https://gdpr.eu/wp-content/uploads/2019/01/Our-Company-Privacy-Policy.pdf) was used to create the content for the Privacy Policy page.
 - [TutorialRepublic](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/) for Boostrap help and tutorials.
+- [Rocket Lawyer](https://www.rocketlawyer.co.uk) for the use of their free Terms and Conditions template text.
+- [XML-Sitemaps.com](https://www.xml-sitemaps.com/) for the generated sitemaps.xml file.
+- [Backlinko](https://backlinko.com/hub/seo/sitemaps) for SEO Sitemaps help and ideas.
+- [Google Search Console Help](https://support.google.com/webmasters/answer/9128668?hl=en) on how to use Google Search Console and troubleshooting techniques.
+- [Bootstrap Accordion Example code](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example) was copied and adapted for the Privacy Policy and Terms and Conditions pages
 ---
