@@ -1,9 +1,11 @@
-# ![Logo](/wireframes/) #
+# Aviation Consultancy #
 
 ***Aviation Consultancy LLC** is (fictitious) consultancy business specialising in aircraft maintenance data and regulatory compliance, based at 
 London Heathrow Airport.
 I designed the website to be a showcase of the available services and a means for new customers to make contact with the business allowing project and service requests to be submitted. 
 It's services are B2B so not required to sell any products directly via the site.*
+
+![Logo](/wireframes/) 
 
 *I created the Aviation Consultancy LLC logo to present a professional, trustworthy image based on research of similar contemporary consultancy service websites 
 (details of these websites can be found in the Credits section). The colour scheme was chosen from the Blue / Green colours to reflect a calm balanced approach as well as to 
@@ -34,6 +36,9 @@ blend well with the aviation and sky themes.*
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
   - [SEO](#seo)
+    -[HTML Sitemap links](#html-sitemap-links)
+    -[XML Sitemap file](#xml-sitemap-file)
+    -[Google Search Console](#google-search-console)
   - [Version Control](#version-control)
   - [Project Management](#project-management)
   - [Testing](#testing)
@@ -79,10 +84,10 @@ I achieve this by:
 - As a **user**, I can see a **company logo** or name in the navigation bar.
 - As a **user**, I can see a **hero image** welcoming the user to the site.
 - As a **user**, I can see **Call To Actions (CTA)** to learn more about the business and to make contact with the business.
-- As a **user**, I can see a carousel containing customer testimonials or inspirational quotes.
-- As a **user**, I can scroll back to the top of a page with the click of a button.
+- As a **user**, I can see a carousel containing **customer testimonials** or **inspirational quotes**.
+- As a **user**, I can scroll back to the top of a page with the **click of a button**.
 - As a **user**, I can see a page describing the **services** provided by the business.
-- As a **user**, I can see a page describing the company values.
+- As a **user**, I can see a page describing the **company values**.
 - As a **user**, I can read a **biography** of **key personnel** in the company.
 - As a **user**, I can **contact** the business by submitting my details with a message.
 - As a **user**, I want to know where the business is **located on a map**.
@@ -97,24 +102,7 @@ I achieve this by:
 - As a **site owner**, I want the **user** to be able to **submit** a **contact request** with **additional text**. 
 - As a **site owner**, I want the **user** to see the **unique selling points** of the business
 - As a **site owner**, I want the **user** to be able to understand the **company values**.
-- As a **site owner**, I want the **user** to be able to the **purpose** of the business.
-
-### User Requirements and Expectations ###
-
-- **Header**, **Main body** divided into section and **Footer**
-- In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
-  - **Home section** (top of the site)
-  - ...
-  - ...
-  - **Contact us** section
-- On the right side of the **Header** you should see additional ...
-
-- In the **Main body** we should see:
-  - **Welcome** section with a welcome message
-  - ...
-  - ...
-  - **Contact us** section displaying google maps with the business location
-- In the **Footer** You should see self-explanatory icons allowing the user to connect them with the business' social media channels.
+- As a **site owner**, I want the **user** to be able to the understand the **purpose** of the business.
 
 --- 
 
@@ -240,16 +228,17 @@ A sitemap.xml file was created to help search engines find, crawl and index the 
 The file was then saved in the GitHub repository root directory.
 
 The following steps were used to generate the sitemap.xml file:
-- 
+
 
 ### Google Search Console ###
 Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
 
 The following steps were used to perfom the indexing tests:
- - 
+
 
 Even though this website has a small number of pages and have navigation links on each page making the Sitemap largely unnecessary, I felt is was a good experience and good practice to add these features in.
 Note: I haven't added a robots.txt file yet but may add this in the future when I understand more about search engine optimisation techniques.
+
 ---
 
 ## Version Control ##
