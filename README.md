@@ -21,7 +21,6 @@ blend well with the aviation and sky themes.*
     - [User Goals](#user-goals)
     - [User Stories](#user-stories)
     - [Site Owner Goals](#site-owner-goals)
-    - [User Requirements and Expectations](#user-requirements-and-expectations)
   - [Design Choices](#design-choices)
     - [Topology](#topology)
     - [Fonts](#fonts)
@@ -36,9 +35,9 @@ blend well with the aviation and sky themes.*
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
   - [SEO](#seo)
-    -[HTML Sitemap links](#html-sitemap-links)
-    -[XML Sitemap file](#xml-sitemap-file)
-    -[Google Search Console](#google-search-console)
+    - [HTML Sitemap links](#html-sitemap-links)
+    - [XML Sitemap file](#xml-sitemap-file)
+    - [Google Search Console](#google-search-console)
   - [Version Control](#version-control)
   - [Project Management](#project-management)
   - [Testing](#testing)
@@ -220,17 +219,17 @@ Search Engine Optimisation for the site was provided in three complementary ways
  - XML sitemap file saved in the root directory
  - Google Search Console
  
-### HTML Sitemap links ###
+#### HTML Sitemap links ####
 - **Secondary** HTML links to each page in the website were added to the footer section of each site page to allow users an alternative means of navigating the site easily.
 
-### XML Sitemap file ###
+#### XML Sitemap file ####
 - A sitemap.xml file was created to help search engines find, crawl and index the website more easily. It was created by using XML-Sitemaps.com and entering the URL for the deployed website and letting it automatically generate the required xml data for the whole site.
 The file was then saved in the GitHub repository root directory.
 
 - The following steps were used to generate the sitemap.xml file:
 
 
-### Google Search Console ###
+#### Google Search Console ####
 - Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
 
 - The following steps were used to perfom the indexing tests:
@@ -324,26 +323,26 @@ The website was developed using both *Gitpod* and *Visual Studio Code* and using
 - Opened up **GitHub** in the browser.
 - Signed in with my **username** and **password**.
 - Selected my **repositories**.
-- Navigated to **simonjvardy/MS-1**.
+- Navigated to **simonjvardy/Aviation-Consultancy**.
 - In the top navigation clicked **settings**.
 - Scrolled down to the **GitHub Pages** area.
 - Selected **Master Branch** from the **Source** dropdown menu.
 - Clicked to **confirm** my **selection**.
-- [repo name](https://simonjvardy.github.io/MS-1/) is now **live** on **GitHub Pages**.
+- [Aviation-Consultancy](https://simonjvardy.github.io/Aviation-Consultancy/) is now **live** on **GitHub Pages**.
 
 ### Running MS-1 Locally ###
 
 Cloning MS-1 from GitHub:
 
-- Navigate to **simonjvardy/MS-1**.
+- Navigate to **simonjvardy/Aviation-Consultancy**.
 - Click the green **Code** button.
 - **Copy** the url in the dropdown box.
 - Using your favourite **IDE** open up your preferred terminal.
 - **Navigate** to your desired file location.
 
-Copy the following code and input it into your terminal to clone [repo name]:
+Copy the following code and input it into your terminal to clone Aviation-Consultancy:
 
-```git clone https://github.com/simonjvardy/MS-1.git```
+```git clone https://github.com/simonjvardy/Aviation-Consultancy.git```
 
 ---
 
