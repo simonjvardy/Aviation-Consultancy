@@ -3,7 +3,7 @@
 ***Aviation Consultancy LLC** is (fictitious) consultancy business specialising in aircraft maintenance data and regulatory compliance, based at 
 London Heathrow Airport.
 I designed the website to be a showcase of the available services and a means for new customers to make contact with the business allowing project and service requests to be submitted. 
-It's not required to sell any products directly but describes the company values, unique selling points and the problems the company can solve for its clients.*
+It's services are B2B so not required to sell any products directly via the site.*
 
 *I created the Aviation Consultancy LLC logo to present a professional, trustworthy image based on research of similar contemporary consultancy service websites 
 (details of these websites can be found in the Credits section). The colour scheme was chosen from the Blue / Green colours to reflect a calm balanced approach as well as to 
@@ -137,8 +137,16 @@ These colours will compliment each other well when used across the site creating
 
 ### Wireframes ###
 
-We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/). We were focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+I designed the site mock-ups originally using pen and paper and then developing the designs further using [balsamiq wireframes](https://balsamiq.com/).
 
+I'm focusing on defining the basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+
+#### Hand drawn drafts ####
+
+The original hand drawn sketch wireframes were created as quick and rough method to try out page formatting ideas to form a basis for creating the wireframe within balsamic.
+
+They represent the early stages of the design process for the website as ideas started to form and the flow of the design process from idea to finished website.
+- []
 ---  
 
 ## Technologies ##
