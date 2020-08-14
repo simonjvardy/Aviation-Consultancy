@@ -221,19 +221,19 @@ Search Engine Optimisation for the site was provided in three complementary ways
  - Google Search Console
  
 ### HTML Sitemap links ###
-**Secondary** HTML links to each page in the website were added to the footer section of each site page to allow users an alternative means of navigating the site easily.
+- **Secondary** HTML links to each page in the website were added to the footer section of each site page to allow users an alternative means of navigating the site easily.
 
 ### XML Sitemap file ###
-A sitemap.xml file was created to help search engines find, crawl and index the website more easily. It was created by using XML-Sitemaps.com and entering the URL for the deployed website and letting it automatically generate the required xml data for the whole site.
+- A sitemap.xml file was created to help search engines find, crawl and index the website more easily. It was created by using XML-Sitemaps.com and entering the URL for the deployed website and letting it automatically generate the required xml data for the whole site.
 The file was then saved in the GitHub repository root directory.
 
-The following steps were used to generate the sitemap.xml file:
+- The following steps were used to generate the sitemap.xml file:
 
 
 ### Google Search Console ###
-Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
+- Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
 
-The following steps were used to perfom the indexing tests:
+- The following steps were used to perfom the indexing tests:
 
 
 Even though this website has a small number of pages and have navigation links on each page making the Sitemap largely unnecessary, I felt is was a good experience and good practice to add these features in.
@@ -411,4 +411,5 @@ The following website was used for design ideas and a clean modern look:
 - [XML-Sitemaps.com](https://www.xml-sitemaps.com/) for the generated sitemaps.xml file.
 - [Backlinko](https://backlinko.com/hub/seo/sitemaps) for SEO Sitemaps help and ideas.
 - [Google Search Console Help](https://support.google.com/webmasters/answer/9128668?hl=en) on how to use Google Search Console and troubleshooting techniques.
+- [Bootstrap Accordion Example code](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example) was copied and adapted for the Privacy Policy and Terms and Conditions pages
 ---
