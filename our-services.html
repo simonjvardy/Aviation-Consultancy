@@ -12,12 +12,35 @@
 </head>
 
 <body>
-    <header>
-        <h1>Our Services</h1>
-    </header>
-    <section>
-    
-    </section>
+    <!-- Bootstrap Navbar (code adapted from here: https://getbootstrap.com/docs/4.5/components/navbar/) -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="50" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Aviation Consultancy LLC
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-4">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-4 active">
+                        <a class="nav-link" href="our-services.html">Our Services <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- /Boostrap Navbar -->
 
     <!-- Footer -->
     <footer class="container-fluid">
