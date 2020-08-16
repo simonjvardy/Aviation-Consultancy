@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* -------------------------------------Colours */
+
+/* -------------------------------------Special Styling */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------------------------------------HEADER SECTION */
+/* -------------------------------------Navbar */
+
+
+/* -------------------------------------Navbar */
+
+.navbar {
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+/* -------------------------------------FOOTER SECTION */
+
+/* -------------------------------------Media Queries */
