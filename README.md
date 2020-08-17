@@ -138,12 +138,12 @@ I'm focusing on defining the basic layout structure of the site and identifying 
 The original hand drawn sketch wireframes were created as quick and rough method to try out page formatting ideas to form a basis for creating the wireframe within balsamic.
 
 They represent the early stages of the design process for the website as ideas started to form and the flow of the design process from idea to finished website.
-- [Homepage](/wireframes/originals/wireframe-mobile-homepage-draft.jpg)
-- [Our Services](/wireframes/originals/wireframe-mobile-our-services-draft.jpg)
-- [What We Do](/wireframes/originals/wireframe-mobile-what-we-do-draft.jpg)
-- [About Us](/wireframes/originals/wireframe-mobile-about-us-draft.jpg)
-- [Contact Us](/wireframes/originals/wireframe-mobile-contact-us-draft.jpg)
-- [Terms & Conditions / Privacy Policy](/wireframes/originals/wireframe-mobile-tc-privacy-draft.jpg)
+- [Homepage](wireframes/original-drafts/wireframe-mobile-homepage-draft.jpg)
+- [Our Services](wireframes/original-drafts/wireframe-mobile-our-services-draft.jpg)
+- [What We Do](wireframes/original-drafts/wireframe-mobile-what-we-do-draft.jpg)
+- [About Us](wireframes/original-drafts/wireframe-mobile-about-us-draft.jpg)
+- [Contact Us](wireframes/original-drafts/wireframe-mobile-contact-us-draft.jpg)
+- [Terms & Conditions / Privacy Policy](wireframes/original-drafts/wireframe-mobile-tc-privacy-draft.jpg)
 
 
 #### Final Wireframes ####
@@ -151,13 +151,13 @@ They represent the early stages of the design process for the website as ideas s
 The final wireframes were created using Balsamiq adapted from the original hand drawn wireframe concepts. Each impage shows a page from the site in three display sizes to demonstrate
 the page design and layout.
 
-- [Homepage](/wireframes/wireframe-homepage.jpg)
-- [Our Services](/wireframes/wireframe-our-services.jpg)
-- [About Us](/wireframes/wireframe-about-us.jpg)
-- [Contact Us](/wireframes/wireframe-contact-us.jpg)
-- [Contact Form Modal](/)
-- [Terms & Conditions](/wireframes/wireframe-terms-and-conditions.jpg)
-- [Privacy Policy](/wireframes/wireframe-privacy-policy.jpg)
+- [Homepage](wireframes/wireframe-home-page.png)
+- [Our Services](wireframes/wireframe-our-services.png)
+- [About Us](wireframes/wireframe-about-us.png)
+- [Contact Us](wireframes/wireframe-contact-us.png)
+- [Contact Form Modal](wireframes/)
+- [Terms & Conditions](wireframes/wireframe-terms-and-conditions.png)
+- [Privacy Policy](wireframes/wireframe-privacy-policy.png)
 
 ---  
 
