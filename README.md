@@ -27,6 +27,7 @@ blend well with the aviation and sky themes.*
     - [Colours](#colours)
     - [Wireframes](#wireframes)
       - [Hand drawn drafts](#hand-drawn-drafts)
+      - [Final Wireframes](#final-wireframes)
   - [Technologies](#technologies)
     - [Languages](#languages)
     - [Libraries](#libraries)
@@ -128,16 +129,36 @@ These colours will compliment each other well when used across the site creating
 
 ### Wireframes ###
 
-I designed the site mock-ups originally using pen and paper and then developing the designs further using [balsamiq wireframes](https://balsamiq.com/).
+I designed the site mock-ups originally using pen and paper and then developing the designs further using [Balsamiq wireframes](https://balsamiq.com/).
 
-I'm focusing on defining the basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+I'm focusing on defining the basic layout structure of the site and identifying how displays would change on different screen sizes such as mobile, tablet and desktop for each page.
 
 #### Hand drawn drafts ####
 
 The original hand drawn sketch wireframes were created as quick and rough method to try out page formatting ideas to form a basis for creating the wireframe within balsamic.
 
 They represent the early stages of the design process for the website as ideas started to form and the flow of the design process from idea to finished website.
-- []
+- [Homepage](/wireframes/originals/wireframe-mobile-homepage-draft.jpg)
+- [Our Services](/wireframes/originals/wireframe-mobile-our-services-draft.jpg)
+- [What We Do](/wireframes/originals/wireframe-mobile-what-we-do-draft.jpg)
+- [About Us](/wireframes/originals/wireframe-mobile-about-us-draft.jpg)
+- [Contact Us](/wireframes/originals/wireframe-mobile-contact-us-draft.jpg)
+- [Terms & Conditions / Privacy Policy](/wireframes/originals/wireframe-mobile-tc-privacy-draft.jpg)
+
+
+#### Final Wireframes ####
+
+The final wireframes were created using Balsamiq adapted from the original hand drawn wireframe concepts. Each impage shows a page from the site in three display sizes to demonstrate
+the page design and layout.
+
+- [Homepage](/wireframes/wireframe-homepage.jpg)
+- [Our Services](/wireframes/wireframe-our-services.jpg)
+- [About Us](/wireframes/wireframe-about-us.jpg)
+- [Contact Us](/wireframes/wireframe-contact-us.jpg)
+- [Contact Form Modal](/)
+- [Terms & Conditions](/wireframes/wireframe-terms-and-conditions.jpg)
+- [Privacy Policy](/wireframes/wireframe-privacy-policy.jpg)
+
 ---  
 
 ## Technologies ##
@@ -194,12 +215,12 @@ They represent the early stages of the design process for the website as ideas s
 
 ### Features Implemented ###
 
-- Responsive mobile first design
+- Responsive mobile first design using a [Bootstrap](https://getbootstrap.com/) framework.
 - User friendly display
-- Navbar with easy navigation
-- CTAs encourage customers to make contact
-- Contact Us page with a form to submit customer details
-- Embedded Google Maps to show the business location
+- A Navbar with easy navigation that collapses on mobile displays
+- CTAs to encourage customers to make contact
+- A Contact Us pop-up modal with a form to submit user details and a request
+- Contact Us page with an embedded Google Maps to show the business location
 - Social media links
 - Bootstrap accordions to assist with readability of large amounts of text on mobile displays
 - Sitemap features for SEO enhancement
@@ -410,5 +431,10 @@ The following website was used for design ideas and a clean modern look:
 - [XML-Sitemaps.com](https://www.xml-sitemaps.com/) for the generated sitemaps.xml file.
 - [Backlinko](https://backlinko.com/hub/seo/sitemaps) for SEO Sitemaps help and ideas.
 - [Google Search Console Help](https://support.google.com/webmasters/answer/9128668?hl=en) on how to use Google Search Console and troubleshooting techniques.
-- [Bootstrap Accordion Example code](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example) was copied and adapted for the Privacy Policy and Terms and Conditions pages
+- [Bootstrap](https://getbootstrap.com/)
+  - [Accordion](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example) example code was copied and adapted for the Privacy Policy and Terms and Conditions pages
+  - [Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/) example code was copied and adapted for the Home page CTA / Hero image.
+  - [Cards](https://getbootstrap.com/docs/4.5/components/card/) example code was copied and adapted for the Home page features section.
+  - [Modal](https://getbootstrap.com/docs/4.5/components/modal/) example code was copied and adapted for the Contact Us form.
+  - [Forms](https://getbootstrap.com/docs/4.5/components/forms/) example code was copied and adapted for the Contact Us form.
 ---
