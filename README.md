@@ -191,6 +191,8 @@ the page design and layout.
   - Used to store, host and deploy the project files and source code after being pushed from Git.
 - [Gitpod](https://www.gitpod.io/)
   - An online IDE linked to the GitHub repository used for the majority of the code development.
+- [CodePen](https://codepen.io/simonjvardy/)
+  - An online code editor and open-source learning environment used to test small sections of code quickly and easily.
 - [Visual Studio Code](https://code.visualstudio.com/)
   - A locally installed IDE connected to the GitHub repository for when there was no internet connection to use Gitpod.
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery)
@@ -437,4 +439,5 @@ The following website was used for design ideas and a clean modern look:
   - [Cards](https://getbootstrap.com/docs/4.5/components/card/) example code was copied and adapted for the Home page features section.
   - [Modal](https://getbootstrap.com/docs/4.5/components/modal/) example code was copied and adapted for the Contact Us form.
   - [Forms](https://getbootstrap.com/docs/4.5/components/forms/) example code was copied and adapted for the Contact Us form.
+  - [Carousel](https://getbootstrap.com/docs/4.5/components/carousel/) example code was copied and adapted for the testimonials carousel.
 ---
