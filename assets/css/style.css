@@ -7,6 +7,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(#fff,#f2feff);
+}
+
+.container-fluid {
+    padding: 15px;
+    overflow-x: hidden;
 }
 
 /* -------------------------------------HEADER SECTION */
