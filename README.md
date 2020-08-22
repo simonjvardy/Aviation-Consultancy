@@ -151,13 +151,13 @@ They represent the early stages of the design process for the website as ideas s
 The final wireframes were created using Balsamiq adapted from the original hand drawn wireframe concepts. Each impage shows a page from the site in three display sizes to demonstrate
 the page design and layout.
 
-- [Homepage](wireframes/wireframe-home-page.png)
-- [Our Services](wireframes/wireframe-our-services.png)
-- [About Us](wireframes/wireframe-about-us.png)
-- [Contact Us](wireframes/wireframe-contact-us.png)
-- [Contact Form Modal](wireframes/)
-- [Terms & Conditions](wireframes/wireframe-terms-and-conditions.png)
-- [Privacy Policy](wireframes/wireframe-privacy-policy.png)
+- [Homepage](wireframes/home-page.png)
+- [Our Services](wireframes/our-services.png)
+- [About Us](wireframes/about-us.png)
+- [Contact Us](wireframes/contact-us.png)
+- [Contact Form Modal](wireframes/contact-form.png)
+- [Terms & Conditions](wireframes/terms-and-conditions.png)
+- [Privacy Policy](wireframes/privacy-policy.png)
 
 ---  
 
@@ -375,6 +375,14 @@ Copy the following code and input it into your terminal to clone Aviation-Consul
 
 You can find the images used for the site [here](assets/images). We have sourced them through various websites, which are free to use:
 
+- Homepage
+  - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
+
+- Our Services
+
+- About Us
+
+- Contact Us
 - [Pikrepo](https://www.pikrepo.com/)
 - [Flickr](https://www.flickr.com/)
 - [Pikist](https://www.pikist.com/)
