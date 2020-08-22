@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-
-/* -------------------------------------Colours */
-
 /* -------------------------------------Special Styling */
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(#fff,#f2feff);
+    background-image: linear-gradient(#fff,#ddd);
 }
 
 /* Added to prevent the problems of elements oververflowing horizontally on mobile devices */
@@ -35,7 +32,6 @@ body {
 }
 
 /* -------------------------------------Testimonials Carousel */
-
 
 .testimonial-carousel {
 /* Background image css code copied from the Code Institute Whiskey Drop project*/
@@ -68,7 +64,7 @@ body {
     color: white;
 }
 
-/* -------------------------------------Contact Us */
+/* -------------------------------------Contact Us Page */
 
 .icon-border h2 i {
     height: 70px;
@@ -78,6 +74,30 @@ body {
     background-color: lightBlue;
     text-align: center;
     margin: auto;
+}
+
+/* -------------------------------------Privacy + Terms and Conditions Page */
+
+.privacy-header h2, .terms-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #444;
+}
+
+/* -------------------------------------Block Dividers */
+
+.block-divider {
+  width: 75px;
+  height: 5px;
+  border: 0;
+  background-color: #444;
+}
+
+/* -------------------------------------Accordion cards */
+
+.box-shadow {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.13), 0 4px 12px rgba(0,0,0,0.26);
 }
 
 /* -------------------------------------FOOTER SECTION */
