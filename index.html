@@ -63,29 +63,29 @@
     <!-- Features Cards -->
     <div class="container-fluid feature-container">
         <div class="row">
-            <div class="card-deck">
-                <div class="card">
+            <div class="card-deck mx-auto mb-5">
+                <div class="card text-center card-styling">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a class="btn btn-primary" href="#" role="button">Read More &#62;</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card text-center card-styling">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a class="btn btn-primary" href="#" role="button">Read More &#62;</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card text-center card-styling">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a class="btn btn-primary" href="#" role="button">Read More &#62;</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h5 class="modal-title" id="contactUsModalLabel">Contact Us</h5>
+                    <h5 class="modal-title" id="contactUsModalLabel"><i class="fas fa-paper-plane"></i> Contact Us</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
@@ -110,28 +110,28 @@
                 <div class="modal-body">
                     <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
                         <div class="form-group">
-                            <label for="username">Name (required)</label>
+                            <label for="username"><i class="fas fa-user"></i>  Name</label>
                             <input type="text" class="form-control" id="username" name="username" placeholder="Enter name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email (required)</label>
+                            <label for="email"><i class="fas fa-envelope"></i>  Email</label>
                             <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="phoneNumber">Phone No (required)</label>
+                            <label for="phoneNumber"><i class="fas fa-phone-alt"></i>  Phone No</label>
                             <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
                         </div>
                         <div class="form-group">
-                            <label for="organisation">Your Organisation (required)</label>
+                            <label for="organisation"><i class="fas fa-building"></i>  Your Organisation</label>
                             <input type="text" class="form-control" id="organisation" name="organisation" placeholder="Enter your organisation" required>
                         </div>
                         <div class="form-group">
-                            <label for="subject">Subject (required)</label>
+                            <label for="subject"><i class="fas fa-tag"></i>  Subject</label>
                             <input type="text" class="form-control" id="subject" name="subject" placeholder=" Enter subject" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message (required)</label>
+                            <label for="message"><i class="fas fa-pencil-alt"></i>  Message</label>
                             <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter message details..." required></textarea>
                         </div>
                         <div class="form-group form-check">
@@ -149,7 +149,7 @@
     <!-- /Contact Us Modal-->
 
     <!-- Testimonials Carousel -->
-    <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-ride="carousel">
+    <div id="testimonialCarousel" class="carousel slide testimonial-carousel mb-5" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="7000">
                 <div class="col-sm-6 offset-sm-3">
@@ -157,7 +157,7 @@
                         <i class="fas fa-quote-left"></i>
                     </p>
                     <p class="text-center">
-                        "Aviation Consultancy LLC has been an inspirational partner in delivering our revolutionary flight tracking software providing realtime location data of our entire fleet of aircraft."
+                        "Aviation Consultancy LLC has been an inspirational partner in delivering our revolutionary flight tracking software providing real-time location data of our entire fleet of aircraft."
                     </p>
                     <p class="text-center" >
                         <strong><span>Michael Orteig</span></strong>
@@ -217,7 +217,7 @@
     <!-- Footer -->
     <footer class="container-fluid footer-container">
         <div id="footer-section" class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 text-center">
                 <h4>Get in touch</h4>
                 <ul class="list-inline">
                     <li class="list-inline-item">
@@ -246,7 +246,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 text-center">
                 <h4>Sitemap</h4>
                 <ul class="list-unstyled">
                     <li>
@@ -270,7 +270,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 text-center">
                 <h4>Contact</h4>
                 <p>Aviation Consultancy LLC<br>
                     World Business Centre 3, Newall Road,<br>
