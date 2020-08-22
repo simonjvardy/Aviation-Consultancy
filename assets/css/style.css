@@ -10,6 +10,7 @@ body {
     background-image: linear-gradient(#fff,#f2feff);
 }
 
+/* Added to prevent the problems of elements oververflowing horizontally on mobile devices */
 .container-fluid {
     padding: 15px;
     overflow-x: hidden;
