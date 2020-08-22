@@ -35,7 +35,33 @@ body {
 
 /* -------------------------------------Testimonials Carousel */
 
+.testimonial-carousel {
+  background-color: transparent;
+  background: url('../images/above-the-clouds.jpg') no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 1.1rem;
+  min-height: 200px;
+  padding: 20px;
+}
 
+.testimonial-carousel p {
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 0 0 3px #000000;
+}
+
+.testimonial-carousel i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.testimonial-carousel p span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
 
 /* -------------------------------------FOOTER SECTION */
 
