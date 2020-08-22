@@ -10,6 +10,7 @@ body {
     background-image: linear-gradient(#fff,#f2feff);
 }
 
+/* Added to prevent the problems of elements oververflowing horizontally on mobile devices */
 .container-fluid {
     padding: 15px;
     overflow-x: hidden;
@@ -36,6 +37,48 @@ body {
 /* -------------------------------------Testimonials Carousel */
 
 
+.testimonial-carousel {
+/* Background image css code copied from the Code Institute Whiskey Drop project*/
+    background-color: transparent;
+    background: url('../images/above-the-clouds.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/* /end of copied Code Institute css code from te Whiskey Drop project */
+    font-size: 1.1rem;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.testimonial-carousel p {
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 3px #000000;
+}
+
+.testimonial-carousel i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.testimonial-carousel p span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* -------------------------------------Contact Us */
+
+.icon-border h2 i {
+    height: 70px;
+    width: 70px;
+    padding: 20px 0;
+    border-radius: 50%;
+    background-color: lightBlue;
+    text-align: center;
+    margin: auto;
+}
 
 /* -------------------------------------FOOTER SECTION */
 
