@@ -15,12 +15,20 @@ body {
 
 /* -------------------------------------Navbar */
 
-.navbar {
-    background-color: rgba(0, 0, 0, .25);
-    border: 0;
-    margin-bottom: 0;
-    width: 100%;
+
+/* -------------------------------------MAIN BODY STYLING */
+/* -------------------------------------Callout */
+
+
+
+/* -------------------------------------Card Deck */
+
+.card-styling {
+    max-width: 30rem;
 }
+
+/* -------------------------------------Testimonials Carousel */
+
 
 
 /* -------------------------------------FOOTER SECTION */
