@@ -61,8 +61,17 @@ body {
 }
 
 .contact-btn {
-    color: #fff;
-    border: 1px solid #fff;
+    color: #444;
+    font-weight: bold;
+    background-color: lightBlue;
+    border: 1px solid lightBlue;
+    border-radius: 25px;
+}
+
+.contact-btn:hover {
+    color: lightBlue;
+    background-color: #444;
+    border: 1px solid #444;
 }
 
 /* Opaque Overlay css code copied from the Code Institute Whiskey Drop project*/ 
