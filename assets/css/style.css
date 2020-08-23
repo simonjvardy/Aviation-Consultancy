@@ -52,12 +52,14 @@ body {
     font-size: 5rem;
     font-weight: 700;
     color: white;
+    text-shadow: 0 0 4px #000000;
 }
 
 .jumbotron p {
     font-size: 1.8rem;
     font-weight: 500;
     color: white;
+    text-shadow: 0 0 4px #000000;
 }
 
 .contact-btn {
