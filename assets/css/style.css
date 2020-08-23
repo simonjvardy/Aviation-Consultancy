@@ -160,7 +160,29 @@ body {
 /* -------------------------------------Accordion cards */
 
 .box-shadow {
-    box-shadow: 0 2px 6px rgba(0,0,0,0.13), 0 4px 12px rgba(0,0,0,0.26);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.13), 0 4px 7px rgba(0,0,0,0.26);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-header:hover {
+    background-color: lightBlue;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #444;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    font-weight: 400;
+    color: #444;
+    text-decoration: underline #444;
 }
 
 /* -------------------------------------FOOTER SECTION */
