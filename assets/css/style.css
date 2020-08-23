@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #444;
     /*background-image: linear-gradient(#fff,#777);*/
 }
 
@@ -47,15 +48,32 @@ body {
 }
 
 .jumbotron h1 {
-    font-size: 2.5rem;
+    font-family: 'Arapey', serif;
+    font-size: 5rem;
     font-weight: 700;
     color: white;
+    text-shadow: 0 0 4px #000000;
 }
 
 .jumbotron p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: white;
+    text-shadow: 0 0 4px #000000;
+}
+
+.contact-btn {
+    color: #444;
+    font-weight: bold;
+    background-color: lightBlue;
+    border: 1px solid lightBlue;
+    border-radius: 25px;
+}
+
+.contact-btn:hover {
+    color: lightBlue;
+    background-color: #444;
+    border: 1px solid #444;
 }
 
 /* Opaque Overlay css code copied from the Code Institute Whiskey Drop project*/ 
@@ -142,9 +160,70 @@ body {
 /* -------------------------------------Accordion cards */
 
 .box-shadow {
-    box-shadow: 0 2px 6px rgba(0,0,0,0.13), 0 4px 12px rgba(0,0,0,0.26);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.13), 0 4px 7px rgba(0,0,0,0.26);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-header:hover {
+    background-color: lightBlue;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #444;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    font-weight: 400;
+    color: #444;
+    text-decoration: underline #444;
 }
 
 /* -------------------------------------FOOTER SECTION */
+/* -------------------------------------Social Media Links */
+
+.social-media ul li {
+  font-size: 1.6rem;
+  padding: 2%;
+}
+
+.social-media ul li a {
+    color: #444;
+}
+
+.social-media ul li a:hover {
+    color: lightBlue;
+}
+
+.icon-bg-sm ul li a i {
+  height: 50px;
+  width: 50px;
+  padding: 12px 0;
+  border-radius: 50%;
+  background-color: lightBlue;
+  text-align: center;
+  margin: auto;
+}
+
+.icon-bg-sm ul li a i:hover {
+    background-color: #444;
+}
 
 /* -------------------------------------Media Queries */
+/* -------------------------------------Responsive Design - TABLET*/
+
+  @media screen and (max-width: 943px) {
+    .jumbotron h1 {
+        font-family: 'Arapey', serif;
+        font-size: 2.5rem;
+    }
+    .jumbotron p {
+        font-size: 1.2rem;
+    }
+  }
