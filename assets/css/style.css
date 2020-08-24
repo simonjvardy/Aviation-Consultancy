@@ -22,7 +22,7 @@ body {
 
 
 /* -------------------------------------MAIN BODY STYLING */
-/* -------------------------------------Callout */
+/* -------------------------------------Homepage Callout Section */
 
 .callout-container {
 /* Background image css code copied from the Code Institute Whiskey Drop project*/
@@ -43,6 +43,43 @@ body {
     padding: 20px;
 }
 
+/* Opaque Overlay css code copied from the Code Institute Whiskey Drop project*/ 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+/* end of copied Code Institute css code from the Whiskey Drop project */
+
+/* -------------------------------------Our Services Hero Image Section */
+
+.our-services-hero-container {
+    height:600px;
+    width: 100%;
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+}
+
+/* -------------------------------------About Us Hero Image Section */
+
+.about-us-hero-container {
+    height:600px;
+    width: 100%;
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+}
+
+/* -------------------------------------Contact Us Hero Image Section */
+
+.contact-us-hero-container {
+    height:600px;
+    width: 100%;
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+}
+
+/* -------------------------------------Jumbotron */
+
 .jumbotron {
     background: none;
 }
@@ -62,6 +99,8 @@ body {
     text-shadow: 0 0 4px #000000;
 }
 
+/* -------------------------------------Buttons */
+
 .contact-btn {
     color: #444;
     font-weight: bold;
@@ -75,18 +114,6 @@ body {
     background-color: #444;
     border: 1px solid #444;
 }
-
-/* Opaque Overlay css code copied from the Code Institute Whiskey Drop project*/ 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-}
-/* end of copied Code Institute css code from the Whiskey Drop project */
-
 
 /* -------------------------------------Card Deck */
 
