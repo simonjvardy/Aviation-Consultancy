@@ -259,39 +259,6 @@ body {
 /* These media queries are a workaround to try to fix device specific display issues rather than using */
 /* background-attachment: scroll; for all devices */
 
-/* -------------------------------------iPadPro Optional */
-/* -------------------------------------Portrait */
-
-@media only screen 
-    and (min-width: 1024px)
-    and (max-width: 1024px)
-    and (orientation: portrait) {
-        .callout-container {
-            background: url('../images/aircraft-hangar-lg.jpg') no-repeat center;
-            background-size: 100%
-        }
-        .testimonial-carousel {
-            background: url('../images/above-the-clouds.jpg') no-repeat center;
-            background-size: 100%
-    }
-}
-
-/* -------------------------------------Landscape */
-
-  @media only screen 
-    and (min-width: 1366px)
-    and (max-width: 1366px)
-    and (orientation: landscape) {
-        .callout-container {
-            background: url('../images/aircraft-hangar-lg.jpg') no-repeat center;
-            background-size: 100%
-        }
-        .testimonial-carousel {
-            background: url('../images/above-the-clouds.jpg') no-repeat center;
-            background-size: 100%
-        }
-    }
-
 /* -------------------------------------iPhone XS Max Optional */
 /* -------------------------------------Portrait */
 
@@ -301,11 +268,11 @@ body {
     and (orientation: portrait) {
         .callout-container {
             background: url('../images/aircraft-hangar-lg.jpg') no-repeat center scroll;
-            background-size: 100%
+            background-size: auto;
         }
         .testimonial-carousel {
             background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
-            background-size: 100%
+            background-size: auto;
     }
 }
 
