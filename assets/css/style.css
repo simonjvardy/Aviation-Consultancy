@@ -121,6 +121,12 @@ body {
     max-width: 30rem;
 }
 
+/* -------------------------------------Google Maps */
+
+.embed-responsive-16by9 {
+  max-height: 600px;
+}
+
 /* -------------------------------------Testimonials Carousel */
 
 .testimonial-carousel {
@@ -214,6 +220,11 @@ body {
 
 /* -------------------------------------FOOTER SECTION */
 /* -------------------------------------Social Media Links */
+
+.footer-container h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
 
 .social-media ul li {
   font-size: 1.6rem;
