@@ -126,7 +126,7 @@ body {
 .testimonial-carousel {
 /* Background image css code copied from the Code Institute Whiskey Drop project*/
     background-color: transparent;
-    background: url('../images/above-the-clouds.jpg') no-repeat bottom right fixed;
+    background: url('../images/above-the-clouds.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -245,7 +245,7 @@ body {
 /* -------------------------------------Media Queries */
 /* -------------------------------------Responsive Design - TABLET*/
 
-  @media screen and (max-width: 943px) {
+@media screen and (max-width: 943px) {
     .jumbotron h1 {
         font-family: 'Arapey', serif;
         font-size: 2.5rem;
@@ -253,4 +253,74 @@ body {
     .jumbotron p {
         font-size: 1.2rem;
     }
-  }
+}
+
+/* Apple devices do not support background-attachment: fixed; displaying background images incorrectly*/
+/* These media queries are a workaround to try to fix device specific display issues rather than using */
+/* background-attachment: scroll; for all devices */
+
+/* -------------------------------------iPadPro Optional */
+/* -------------------------------------Portrait */
+
+@media only screen 
+    and (min-width: 1024px)
+    and (max-width: 1024px)
+    and (orientation: portrait) {
+        .callout-container {
+            background: url('../images/aircraft-hangar-lg.jpg') no-repeat center;
+            background-size: 100%
+        }
+        .testimonial-carousel {
+            background: url('../images/above-the-clouds.jpg') no-repeat center;
+            background-size: 100%
+    }
+}
+
+/* -------------------------------------Landscape */
+
+  @media only screen 
+    and (min-width: 1366px)
+    and (max-width: 1366px)
+    and (orientation: landscape) {
+        .callout-container {
+            background: url('../images/aircraft-hangar-lg.jpg') no-repeat center;
+            background-size: 100%
+        }
+        .testimonial-carousel {
+            background: url('../images/above-the-clouds.jpg') no-repeat center;
+            background-size: 100%
+        }
+    }
+
+/* -------------------------------------iPhone XS Max Optional */
+/* -------------------------------------Portrait */
+
+@media only screen 
+    and (min-width: 414px)
+    and (max-width: 414px)
+    and (orientation: portrait) {
+        .callout-container {
+            background: url('../images/aircraft-hangar-lg.jpg') no-repeat center scroll;
+            background-size: 100%
+        }
+        .testimonial-carousel {
+            background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
+            background-size: 100%
+    }
+}
+
+/* -------------------------------------Landscape */
+
+  @media only screen 
+    and (min-width: 896px)
+    and (max-width: 896px)
+    and (orientation: landscape) {
+        .callout-container {
+            background: url('../images/aircraft-hangar-lg.jpg') no-repeat center scroll;
+            background-size: 100%
+        }
+        .testimonial-carousel {
+            background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
+            background-size: 100%
+        }
+    }
