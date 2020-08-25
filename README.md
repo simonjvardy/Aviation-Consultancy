@@ -11,7 +11,6 @@ It's services are B2B so not required to sell any products directly via the site
 (details of these websites can be found in the Credits section). The colour scheme was chosen from the Blue / Green colours to reflect a calm balanced approach as well as to 
 blend well with the aviation and sky themes.*
 
-
 ## Contents ##
 
 - [Logo](#img-srcwireframeslogo-imagejpg-altlogo)
@@ -114,11 +113,11 @@ I achieve this by:
 
 ### Fonts ###
 
-We have chosen [Oswald](https://fonts.google.com/specimen/Oswald?query=Oswald) for all of the headers and [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto) the rest of the text.
+I have chosen [Oswald](https://fonts.google.com/specimen/Oswald?query=Oswald) for all of the headers and [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto) the rest of the text.
 
 ### Colours ###
 
-We have chosen the colour that say ... appealing to the eye and also compliments the design of the project.
+I have chosen the colour that say ... appealing to the eye and also compliments the design of the project.
 ![Colour palette](wireframes/Palette.png)
 
 - *Grullo* (AF9483) - Light soft brown
@@ -144,7 +143,6 @@ They represent the early stages of the design process for the website as ideas s
 - [About Us](wireframes/original-drafts/wireframe-mobile-about-us-draft.jpg)
 - [Contact Us](wireframes/original-drafts/wireframe-mobile-contact-us-draft.jpg)
 - [Terms & Conditions / Privacy Policy](wireframes/original-drafts/wireframe-mobile-tc-privacy-draft.jpg)
-
 
 #### Final Wireframes ####
 
@@ -211,6 +209,8 @@ the page design and layout.
   - A software tool for drawing diagrams and flowcharts which is part of the Microsoft Office365 suite used to create the website topology chart.
 - [XML-Sitemaps.com](https://www.xml-sitemaps.com/)
   - An online .xml sitemap generator.
+- [What is my Screen Resolution](http://whatismyscreenresolution.net/)
+  - An online tool to find out the screen resolution on your device used for CSS @media queries
 ---
 
 ## Features ##
@@ -251,12 +251,10 @@ The file was then saved in the GitHub repository root directory.
 
 - The following steps were used to generate the sitemap.xml file:
 
-
 #### Google Search Console ####
 - Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
 
 - The following steps were used to perfom the indexing tests:
-
 
 Even though this website has a small number of pages and have navigation links on each page making the Sitemap largely unnecessary, I felt is was a good experience and good practice to add these features in.
 Note: I haven't added a robots.txt file yet but may add this in the future when I understand more about search engine optimisation techniques.
@@ -268,8 +266,8 @@ Note: I haven't added a robots.txt file yet but may add this in the future when 
 The following describes the repository branch structure:
 - **Master** - this is the default branch and the source for the repository deployment.
     - **Documentation** - this branch is used for updating the README.md and testing.md documentation only.
-	- **Development** - this branch is used as the main working branch for the website development
-	- Each individual **bug fixes** are raised within their own **separate branches** using the naming convention **\<GitHub Issue ID Number>-\<bug fix description>** e.g. branch name ***12-correct-navbar-links*** 
+    - **Development** - this branch is used as the main working branch for the website development
+    - Each individual **bug fixes** are raised within their own **separate branches** using the naming convention **\<GitHub Issue ID Number>-\<bug fix description>** e.g. branch name ***12-correct-navbar-links*** 
 
 The following worflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
 
@@ -335,7 +333,7 @@ Open issues are managed within the [GitHub Projects section](https://github.com/
 
 Each branch is then **merged** into the **master branch** using a **pull request** that is **linked** to the **open issue**. Once merged, and the bug report **closed**, the branch is **deleted**.
 
-FIxed bugs and issues are marked as [closed](https://github.com/simonjvardy/MS-1/issues?q=is%3Aissue+is%3Aclosed).
+Fixed bugs and issues are marked as [closed](https://github.com/simonjvardy/MS-1/issues?q=is%3Aissue+is%3Aclosed).
 
 ---
 
@@ -373,7 +371,7 @@ Copy the following code and input it into your terminal to clone Aviation-Consul
 
 ### Images ###
 
-You can find the images used for the site [here](assets/images). We have sourced them through various websites, which are free to use:
+You can find the images used for the site [here](assets/images). I have sourced them through various websites, which are free to use:
 
 - Homepage
   - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
@@ -418,7 +416,6 @@ The following websites were used for design and image ideas based on similar bus
 
 The following website was used for design ideas and a clean modern look:
 - [Greenhouse Digital Marketing Agency](https://pages.ghagency.com/)
-
 
 ### Acknowledgements ###
 
