@@ -57,21 +57,42 @@ body {
 /* -------------------------------------Hero Image Containers */
 
 .our-services-hero-container {
-    height:600px;
+    height:700px;
     width: 100%;
-    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+    background: url('../images/aircraft-engine.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-us-hero-container {
     height:600px;
     width: 100%;
-    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+    background: url('../images/aircraft-hangar-front.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-us-hero-container {
     height:600px;
     width: 100%;
-    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+    background: url('../images/aircraft-taxi-night.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* -------------------------------------Jumbotron */
@@ -120,6 +141,16 @@ body {
 .card-styling-team {
     max-width: 15rem;
     min-width: 15rem;
+}
+
+.card-styling-team a i {
+    color: #777;
+    font-size: 1.6rem;
+}
+
+.card-styling-team a i:hover {
+    color: #444;
+    text-decoration: underline;
 }
 
 .card-styling {
