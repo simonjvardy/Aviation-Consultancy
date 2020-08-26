@@ -54,7 +54,7 @@ body {
 }
 /* end of copied Code Institute css code from the Whiskey Drop project */
 
-/* -------------------------------------Our Services Hero Image Section */
+/* -------------------------------------Hero Image Containers */
 
 .our-services-hero-container {
     height:600px;
@@ -62,15 +62,11 @@ body {
     background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
 }
 
-/* -------------------------------------About Us Hero Image Section */
-
 .about-us-hero-container {
     height:600px;
     width: 100%;
     background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
 }
-
-/* -------------------------------------Contact Us Hero Image Section */
 
 .contact-us-hero-container {
     height:600px;
@@ -101,7 +97,7 @@ body {
 
 /* -------------------------------------Buttons */
 
-.contact-btn {
+.pill-btn {
     color: #444;
     font-weight: bold;
     background-color: lightBlue;
@@ -109,7 +105,7 @@ body {
     border-radius: 25px;
 }
 
-.contact-btn:hover {
+.pill-btn:hover {
     color: lightBlue;
     background-color: #444;
     border: 1px solid #444;
@@ -117,8 +113,18 @@ body {
 
 /* -------------------------------------Card Deck */
 
+.card-deck {
+    justify-content: center;
+}
+
+.card-styling-team {
+    max-width: 15rem;
+    min-width: 15rem;
+}
+
 .card-styling {
     max-width: 30rem;
+    min-width: 15rem;
 }
 
 .card-img-top {
@@ -193,6 +199,13 @@ body {
   border: 0;
   background-color: #444;
 }
+
+.block-divider-sm {
+    width: 40px;
+    height: 3px;
+    border: 0;
+    background-color: #444;
+  }
 
 /* -------------------------------------Accordion cards */
 
