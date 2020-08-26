@@ -13,7 +13,7 @@ blend well with the aviation and sky themes.*
 
 ## Contents ##
 
-- [Logo](#img-srcwireframeslogo-imagejpg-altlogo)
+- [Aviation Consultancy](#aviation-consultancy)
   - [Contents](#contents)
   - [UX (User Experience)](#ux-user-experience)
     - [Project Goals](#project-goals)
@@ -31,24 +31,32 @@ blend well with the aviation and sky themes.*
     - [Languages](#languages)
     - [Libraries](#libraries)
     - [Tools](#tools)
+  - [- An online tool to generate random names for the team members in the About Us page.](#ullian-online-tool-to-generate-random-names-for-the-team-members-in-the-about-us-pageliul)
   - [Features](#features)
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
   - [SEO](#seo)
-    - [HTML Sitemap links](#html-sitemap-links)
-    - [XML Sitemap file](#xml-sitemap-file)
-    - [Google Search Console](#google-search-console)
+      - [HTML Sitemap links](#html-sitemap-links)
+      - [XML Sitemap file](#xml-sitemap-file)
+      - [Google Search Console](#google-search-console)
   - [Version Control](#version-control)
+      - [Gitpod Workspaces](#gitpod-workspaces)
+      - [Branches](#branches)
+      - [Working within a branch](#working-within-a-branch)
+      - [Merging branches in GitHub](#merging-branches-in-github)
+      - [Update Gitpod with the latest GitHub commits](#update-gitpod-with-the-latest-github-commits)
   - [Project Management](#project-management)
   - [Testing](#testing)
   - [Bugs](#bugs)
   - [Deployment](#deployment)
-    - [Running [repo name] Locally](#running-bi-team-5-locally)
+    - [Running MS-1 Locally](#running-ms-1-locally)
   - [Credits](#credits)
     - [Images](#images)
     - [Colour](#colour)
     - [Image editing](#image-editing)
+    - [Inspiration](#inspiration)
     - [Acknowledgements](#acknowledgements)
+  - [- Embeds example code was copied and adapted for the Google Maps embeded iframe](#ulliembeds-example-code-was-copied-and-adapted-for-the-google-maps-embeded-iframeliul)
 
 ---
 
@@ -211,6 +219,8 @@ the page design and layout.
   - An online .xml sitemap generator.
 - [What is my Screen Resolution](http://whatismyscreenresolution.net/)
   - An online tool to find out the screen resolution on your device used for CSS @media queries
+- [Random Name Generator](https://www.name-generator.org.uk/)
+  - An online tool to generate random names for the team members in the About Us page.
 ---
 
 ## Features ##
