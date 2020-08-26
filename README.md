@@ -49,7 +49,7 @@ blend well with the aviation and sky themes.*
   - [Testing](#testing)
   - [Bugs](#bugs)
   - [Deployment](#deployment)
-    - [Running MS-1 Locally](#running-ms-1-locally)
+    - [Running Aviation-Consultancy Locally](#running-aviation-consultancy-locally)
   - [Credits](#credits)
     - [Images](#images)
     - [Colour](#colour)
@@ -125,12 +125,13 @@ I have chosen [Oswald](https://fonts.google.com/specimen/Oswald?query=Oswald) fo
 
 ### Colours ###
 
-I have chosen the colour that say ... appealing to the eye and also compliments the design of the project.
-![Colour palette](wireframes/Palette.png)
+I have chosen the colours that say 'trust' and 'dependable' buy using light blue, white and black to compliment the aviation theme. The images used in the site display a range of blue tones and so the palette choice also compliments the design of the project.
+![Colour palette](wireframes/coolors-palette.png)
 
-- *Grullo* (AF9483) - Light soft brown
-- *Umber* (615550) - Dark brown
-- *Alabaster* (F0EDE5) - Off white
+- *Black* (000000) - Black
+- *Onyx* (444444) - Dark Grey
+- *Light Blue* (ADD8E6) - Sky blue
+- *WHite* (FFFFFF) - White
 
 These colours will compliment each other well when used across the site creating pleasant ambience.
 
@@ -175,8 +176,6 @@ the page design and layout.
   - Used as the main markup language for the website content.
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
   - Used to style the individual webpages.
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  - [TBC]
 
 ### Libraries ###
 
@@ -264,7 +263,7 @@ The file was then saved in the GitHub repository root directory.
 #### Google Search Console ####
 - Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
 
-- The following steps were used to perfom the indexing tests:
+- The following steps were used to perform the indexing tests:
 
 Even though this website has a small number of pages and have navigation links on each page making the Sitemap largely unnecessary, I felt is was a good experience and good practice to add these features in.
 Note: I haven't added a robots.txt file yet but may add this in the future when I understand more about search engine optimisation techniques.
@@ -272,14 +271,14 @@ Note: I haven't added a robots.txt file yet but may add this in the future when 
 ---
 
 ## Version Control ##
-**Version control** for this repository is managed within **GitHub** and **Gitpod** using separate [branches](https://github.com/simonjvardy/MS-1/branches)  used to work on specific aspects of the project.
+**Version control** for this repository is managed within **GitHub** and **Gitpod** using separate [branches](https://github.com/simonjvardy/Aviation-Consultancy/branches)  used to work on specific aspects of the project.
 The following describes the repository branch structure:
 - **Master** - this is the default branch and the source for the repository deployment.
     - **Documentation** - this branch is used for updating the README.md and testing.md documentation only.
     - **Development** - this branch is used as the main working branch for the website development
     - Each individual **bug fixes** are raised within their own **separate branches** using the naming convention **\<GitHub Issue ID Number>-\<bug fix description>** e.g. branch name ***12-correct-navbar-links*** 
 
-The following worflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
+The following workflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
 
 #### Gitpod Workspaces ####
 1. Open **Gitpod** from **Github** using the Gitpod button. This needs to only be done **once** at the start of the project.
@@ -312,7 +311,7 @@ The following worflow steps are used to create and update branches within Gitpod
 
 ## Project Management ##
 
-GitHub [Projects](https://github.com/simonjvardy/MS-1/projects/1) are used to organise the planning and development of the website using the Automated kanban template.
+GitHub [Projects](https://github.com/simonjvardy/Aviation-Consultancy/projects) are used to organise the planning and development of the website using the Automated kanban template.
 The following project cards are used to manage the tasks:
 - **Backlog** - this card is used to capture ideas for project tasks.
 - **To Do** - this is the current work queue for the project.
@@ -338,12 +337,12 @@ Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text 
 ## Bugs ##
 
 To manage bugs and issues tracking, the default GitHub [bug_report.md template](https://github.com/simonjvardy/MS-1/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) has been created and activated within the repository settings Features > Issues section.
-All new bugs and issues are tracked within the GitHub repository [Issues section](https://github.com/simonjvardy/MS-1/issues) .
-Open issues are managed within the [GitHub Projects section](https://github.com/simonjvardy/MS-1/projects/1)
+All new bugs and issues are tracked within the GitHub repository [Issues section](https://github.com/simonjvardy/Aviation-Consultancy/issues) .
+Open issues are managed within the [GitHub Projects section](https://github.com/simonjvardy/Aviation-Consultancy/projects)
 
 Each branch is then **merged** into the **master branch** using a **pull request** that is **linked** to the **open issue**. Once merged, and the bug report **closed**, the branch is **deleted**.
 
-Fixed bugs and issues are marked as [closed](https://github.com/simonjvardy/MS-1/issues?q=is%3Aissue+is%3Aclosed).
+Fixed bugs and issues are marked as [closed](https://github.com/simonjvardy/Aviation-Consultancy/issues?q=is%3Aissue+is%3Aclosed).
 
 ---
 
@@ -361,9 +360,9 @@ The website was developed using both *Gitpod* and *Visual Studio Code* and using
 - Clicked to **confirm** my **selection**.
 - [Aviation-Consultancy](https://simonjvardy.github.io/Aviation-Consultancy/) is now **live** on **GitHub Pages**.
 
-### Running MS-1 Locally ###
+### Running Aviation-Consultancy Locally ###
 
-Cloning MS-1 from GitHub:
+Cloning Aviation-Consultancy from GitHub:
 
 - Navigate to **simonjvardy/Aviation-Consultancy**.
 - Click the green **Code** button.
