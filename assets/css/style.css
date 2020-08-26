@@ -121,6 +121,10 @@ body {
     max-width: 30rem;
 }
 
+.card-img-top {
+    height: 320px;
+}
+
 /* -------------------------------------Google Maps */
 
 .embed-responsive-16by9 {
