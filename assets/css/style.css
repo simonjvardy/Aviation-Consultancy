@@ -18,14 +18,11 @@ body {
 /* -------------------------------------Navbar */
 
 
-/* -------------------------------------Navbar */
-
-
 /* -------------------------------------MAIN BODY STYLING */
 /* -------------------------------------Homepage Callout Section */
 
 .callout-container {
-/* Background image css code copied from the Code Institute Whiskey Drop project*/
+/* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
     height: 100vh;
     background-color: transparent;
     background: url('../images/aircraft-hangar-lg.jpg') no-repeat center fixed;
@@ -57,9 +54,10 @@ body {
 /* -------------------------------------Hero Image Containers */
 
 .our-services-hero-container {
+    /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
     height:700px;
     width: 100%;
-    background: url('../images/aircraft-engine.jpg') no-repeat center center;
+    background: url('../images/aircraft-engine.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,12 +65,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* end of copied Code Institute css code from the Whiskey Drop project */
 }
 
 .about-us-hero-container {
-    height:600px;
+    /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
+    height:700px;
     width: 100%;
-    background: url('../images/aircraft-hangar-front.jpg') no-repeat center center;
+    background: url('../images/aircraft-hangar-front-web.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,12 +80,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* end of copied Code Institute css code from the Whiskey Drop project */
 }
 
 .contact-us-hero-container {
-    height:600px;
+    height:700px;
     width: 100%;
-    background: url('../images/aircraft-taxi-night.jpg') no-repeat center center;
+    background: url('../images/aircraft-taxi-night.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -133,6 +134,10 @@ body {
 }
 
 /* -------------------------------------Card Deck */
+
+.feature-container-team {
+    background-color: white;
+}
 
 .card-deck {
     justify-content: center;
@@ -236,7 +241,7 @@ body {
     height: 3px;
     border: 0;
     background-color: #444;
-  }
+}
 
 /* -------------------------------------Accordion cards */
 
