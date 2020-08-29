@@ -31,7 +31,7 @@ blend well with the aviation and sky themes.*
     - [Languages](#languages)
     - [Libraries](#libraries)
     - [Tools](#tools)
-  - [- An online tool to generate random names for the team members in the About Us page.](#ullian-online-tool-to-generate-random-names-for-the-team-members-in-the-about-us-pageliul)
+  - [- A suite of productivity apps used to design the Aviation COnsultancy LLC logo](#ullia-suite-of-productivity-apps-used-to-design-the-aviation-consultancy-llc-logoliul)
   - [Features](#features)
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
@@ -56,7 +56,7 @@ blend well with the aviation and sky themes.*
     - [Image editing](#image-editing)
     - [Inspiration](#inspiration)
     - [Acknowledgements](#acknowledgements)
-  - [- Embeds example code was copied and adapted for the Google Maps embeded iframe](#ulliembeds-example-code-was-copied-and-adapted-for-the-google-maps-embeded-iframeliul)
+  - [- Embeds example code was copied and adapted for the Google Maps embedded iframe](#ulliembeds-example-code-was-copied-and-adapted-for-the-google-maps-embedded-iframeliul)
 
 ---
 
@@ -86,7 +86,6 @@ I achieve this by:
 ### User Stories ###
 
 - As a **user**, I want to see a **navigation bar** at the top of the page where I can navigate to each of the different site pages.
-- As a **user**, I can see a **navigation bar** that remains in view when the page is scrolled down on desktop view.
 - As a **user**, I can see a **collapsed navigation bar icon** on mobile devices that opens up to give access to the site navigation links when clicked.
 - As a **user**, I can see a **company logo** or name in the navigation bar.
 - As a **user**, I can see a **hero image** welcoming the user to the site.
@@ -126,12 +125,12 @@ I have chosen [Oswald](https://fonts.google.com/specimen/Oswald?query=Oswald) fo
 ### Colours ###
 
 I have chosen the colours that say 'trust' and 'dependable' buy using light blue, white and black to compliment the aviation theme. The images used in the site display a range of blue tones and so the palette choice also compliments the design of the project.
-![Colour palette](wireframes/coolors-palette.png)
+![Colour palette](wireframes/coolors-palette-sm.png)
 
 - *Black* (000000) - Black
 - *Onyx* (444444) - Dark Grey
 - *Light Blue* (ADD8E6) - Sky blue
-- *WHite* (FFFFFF) - White
+- *White* (FFFFFF) - White
 
 These colours will compliment each other well when used across the site creating pleasant ambience.
 
@@ -185,8 +184,7 @@ the page design and layout.
   - Loaded as part of the [Bootstrap CDN starter template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template)
 - [Popper](https://popper.js.org/)
   - Loaded as part of the [Bootstrap CDN starter template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template)
-- [Hover CSS](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css)
-  - Used to add extra effects to CSS hover selectors on buttons and links.
+
   
 ### Tools ###
 
@@ -220,6 +218,8 @@ the page design and layout.
   - An online tool to find out the screen resolution on your device used for CSS @media queries
 - [Random Name Generator](https://www.name-generator.org.uk/)
   - An online tool to generate random names for the team members in the About Us page.
+- [Microsoft Office365](https://www.microsoft.com/en-gb/microsoft-365)
+  - A suite of productivity apps used to design the Aviation COnsultancy LLC logo
 ---
 
 ## Features ##
@@ -380,28 +380,36 @@ Copy the following code and input it into your terminal to clone Aviation-Consul
 
 ### Images ###
 
-You can find the images used for the site [here](assets/images). I have sourced them through various websites, which are free to use:
+You can find the images used for the site [here](assets/images). I have sourced them through various websites, which are either free to use or used under license:
 
 - Homepage
+  - The [Callout Hero Image](assets/images/aircraft-hangar-lg.jpg) was sourced and used under license from Shutterstock.com
+  - The card deck image caps:
+    - [engine-fanblades.jpg](assets/images/engine-fanblades.jpg) image was sourced and used under license from Shutterstock.com
+    - [aircraft-hangar-front.jpg](assets/images/aircraft-hangar-front.jpg) image is used courtesy of [Jetstar Airways sourced from Flickr.com](https://www.flickr.com/photos/jetstarairways/6768081235)
+    - [Aircraft-terminal-dusk.jpg](assets/images/aircraft-terminal-dusk.jpg) image was sourced as a free to use image from [Pikrepo.com](https://www.pikrepo.com/fbxpn/white-and-blue-airplane-under-blue-sky-during-daytime)
   - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
 
 - Our Services
+  - The [Hero Image](assets/images/aircraft-engine.jpg) was sourced as a free to use image from [Pexels.com](https://www.pexels.com/photo/airplane-engine-459402/)
+  - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
 
 - About Us
+  - The [Hero Image](assets/images/aircraft-hangar-front-web.jpg)  image is used courtesy of [Jetstar Airways sourced from Flickr.com](https://www.flickr.com/photos/jetstarairways/6768081235)
+  - The card deck image caps:
+    - [departure-board.jpg](assets/images/departure-board.jpg) image was sourced as a free to use image from [Pikrepo.com](https://www.pikrepo.com/favaw/airplane-flight-schedules)
+    - [escalator.jpg](assets/images/escalator.jpg) image was sourced as a free to use image from [Pxfuel.com](https://www.pxfuel.com/en/free-photo-xppcq)
+    - [travelator.jpg](assets/images/travelator.jpg) image was sourced as a free to use image from [pixabay.com](https://pixabay.com/photos/travelator-walkway-travel-airport-1209281/)
+  - The fictitious Meet The Team portrait images:
+    - ['Thomas Brooks'](assets/images/portrait-man-1.jpg) was sourced and used under license from Shutterstock.com
+    - ['Dr. Mary Hoffman'](assets/images/portrait-woman-1.jpg) was sourced and used under license from Shutterstock.com
+    -  ['Elizabeth Ward'](assets/images/portrait-woman-2.jpg) was sourced and used under license from Shutterstock.com
+    - ['Michael Lawson'](assets/images/portrait-man-2.jpg) was sourced and used under license from Shutterstock.com
+  - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
 
 - Contact Us
-- [Pikrepo](https://www.pikrepo.com/)
-- [Flickr](https://www.flickr.com/)
-- [Pikist](https://www.pikist.com/)
-- [Piqsels](https://www.piqsels.com/)
-- [Pikrepo](https://www.pikrepo.com/)
-- [Pixabay](https://pixabay.com/)
-- [Airliners.net](http://www.airliners.net/)
-- [best-wallpaper.net](https://best-wallpaper.net/)
-- [Pxfuel](https://www.pxfuel.com/)
-- [Pexels](https://www.pexels.com/)
-- [Unsplash](https://unsplash.com/)
-- Image(s) used under license from Shutterstock.com.
+  - The [Hero Image](assets/images/aircraft-hangar-front-web.jpg) image was sourced as a free to use image from [ Pikrepo.com](https://www.pikrepo.com/fiyrd/low-light-photographed-of-gray-plane-on-pathway)
+  - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
 
 ### Colour ###
 
@@ -410,7 +418,7 @@ The colour palette was identified on [Coolors](https://coolors.co/)
 ### Image editing ###
 
 - Microsoft snipping tool was used for capturing screengrabs which are saved as images.
-- A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
+- A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed me to resize the images all at once.
 
 ### Inspiration ###
 
@@ -432,7 +440,7 @@ The following website was used for design ideas and a clean modern look:
 - [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material for the inspiration from code-along challenges.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original Unit Testing and UAT Testing Plan documents were sourced
 - [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
-- [Neringa Bickmore](https://github.com/neringabickmore) for her guidance and advice on the README.md and testing.mddocument content and layout.
+- [Neringa Bickmore](https://github.com/neringabickmore) for her guidance and advice on the README.md and testing.md document content and layout.
 - [Frozenaught](https://github.com/Frozenaught/homechopped) for further README.md content ideas.
 - [Gary Simons](https://github.com/GarySimons/WildBunch-Florist) for further README.md content ideas.
 - [Software Testing Fundamentals (STF)](http://softwaretestingfundamentals.com/) for an excellent guide on building testing processes.
@@ -455,5 +463,5 @@ The following website was used for design ideas and a clean modern look:
   - [Modal](https://getbootstrap.com/docs/4.5/components/modal/) example code was copied and adapted for the Contact Us form.
   - [Forms](https://getbootstrap.com/docs/4.5/components/forms/) example code was copied and adapted for the Contact Us form.
   - [Carousel](https://getbootstrap.com/docs/4.5/components/carousel/) example code was copied and adapted for the testimonials carousel.
-  - [Embeds](https://getbootstrap.com/docs/4.0/utilities/embed/) example code was copied and adapted for the Google Maps embeded iframe
+  - [Embeds](https://getbootstrap.com/docs/4.0/utilities/embed/) example code was copied and adapted for the Google Maps embedded iframe
 ---
