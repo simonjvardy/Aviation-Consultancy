@@ -1,11 +1,11 @@
-# Aviation Consultancy #
+# ![Aviation Consultancy](assets/images/logo-image.jpg) #
 
 ***Aviation Consultancy LLC** is (fictitious) consultancy business specialising in aircraft maintenance data and regulatory compliance, based at 
 London Heathrow Airport.
 I designed the website to be a showcase of the available services and a means for new customers to make contact with the business allowing project and service requests to be submitted. 
 It's services are B2B so not required to sell any products directly via the site.*
 
-![Logo](/wireframes/) 
+![Logo](/wireframes/am-i-responsive.jpg) 
 
 *I created the Aviation Consultancy LLC logo to present a professional, trustworthy image based on research of similar contemporary consultancy service websites 
 (details of these websites can be found in the Credits section). The colour scheme was chosen from the Blue / Green colours to reflect a calm balanced approach as well as to 
@@ -13,7 +13,7 @@ blend well with the aviation and sky themes.*
 
 ## Contents ##
 
-- [Aviation Consultancy](#aviation-consultancy)
+- [!Aviation Consultancy](#img-srcassetsimageslogo-imagejpg-altaviation-consultancy)
   - [Contents](#contents)
   - [UX (User Experience)](#ux-user-experience)
     - [Project Goals](#project-goals)
