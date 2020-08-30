@@ -86,6 +86,7 @@ body {
 }
 
 .contact-us-hero-container {
+    /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
     height:700px;
     width: 100%;
     background: url('../images/aircraft-taxi-night.jpg') no-repeat center fixed;
@@ -97,6 +98,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    /* end of copied Code Institute css code from the Whiskey Drop project */
 }
 
 .confirmation-hero-container {
@@ -167,6 +169,15 @@ body {
     justify-content: center;
 }
 
+.card-styling {
+    max-width: 30rem;
+    min-width: 15rem;
+}
+
+.card-img-top {
+    height: 320px;
+}
+
 .card-styling-team {
     max-width: 15rem;
     min-width: 15rem;
@@ -182,13 +193,10 @@ body {
     text-decoration: underline;
 }
 
-.card-styling {
-    max-width: 30rem;
-    min-width: 15rem;
-}
-
-.card-img-top {
-    height: 320px;
+.card-styling-team h4,
+.card-styling h4 {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
 }
 
 /* -------------------------------------Contact Us Modal */
@@ -259,6 +267,11 @@ body {
     background-color: lightBlue;
     text-align: center;
     margin: auto;
+}
+
+.contact-us-card h3 {
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
 }
 
 /* -------------------------------------Privacy + Terms and Conditions Page */
