@@ -31,7 +31,7 @@ blend well with the aviation and sky themes.*
     - [Languages](#languages)
     - [Libraries](#libraries)
     - [Tools](#tools)
-  - [- A suite of productivity apps used to design the Aviation COnsultancy LLC logo](#ullia-suite-of-productivity-apps-used-to-design-the-aviation-consultancy-llc-logoliul)
+  - [- A suite of productivity apps used to design the Aviation Consultancy LLC logo](#ullia-suite-of-productivity-apps-used-to-design-the-aviation-consultancy-llc-logoliul)
   - [Features](#features)
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
@@ -132,7 +132,7 @@ I have chosen the colours that say 'trust' and 'dependable' buy using light blue
 - *Light Blue* (ADD8E6) - Sky blue
 - *White* (FFFFFF) - White
 
-These colours will compliment each other well when used across the site creating pleasant ambience.
+These colours will compliment each other well when used across the site creating a pleasant ambience.
 
 ### Wireframes ###
 
@@ -219,7 +219,7 @@ the page design and layout.
 - [Random Name Generator](https://www.name-generator.org.uk/)
   - An online tool to generate random names for the team members in the About Us page.
 - [Microsoft Office365](https://www.microsoft.com/en-gb/microsoft-365)
-  - A suite of productivity apps used to design the Aviation COnsultancy LLC logo
+  - A suite of productivity apps used to design the Aviation Consultancy LLC logo
 ---
 
 ## Features ##
