@@ -47,7 +47,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.35);
 }
 /* end of copied Code Institute css code from the Whiskey Drop project */
 
@@ -130,6 +130,7 @@ body {
     font-weight: 700;
     color: white;
     text-shadow: 0 0 4px #000000;
+    margin: 20px 0;
 }
 
 .jumbotron p {
@@ -137,6 +138,7 @@ body {
     font-weight: 500;
     color: white;
     text-shadow: 0 0 4px #000000;
+    margin: 20px 0;
 }
 
 /* -------------------------------------Buttons */
@@ -190,6 +192,15 @@ body {
 }
 
 /* -------------------------------------Contact Us Modal */
+
+/* Fix for the callout image and text jumping when the modal popup appears - code borrowed from */
+/* https://github.com/twbs/bootstrap/issues/15229 */
+/* Known common issue with Bootstrap Modals */
+.modal-open {
+    overflow: auto;
+    padding-right: 0 !important;
+}
+/* /Fix end */
 
 .modal-header {
     align-items: center;
