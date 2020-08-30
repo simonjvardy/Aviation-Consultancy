@@ -108,7 +108,10 @@
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h5 class="modal-title" id="contactUsModalLabel"><i class="fas fa-paper-plane"></i> Contact Us</h5>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo-image.jpg" width="150" height="70" class="d-inline-block align-top" alt="" loading="lazy">
+                    </a>
+                    <h2 class="modal-title" id="contactUsModalLabel"> Contact Us</h2>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
@@ -116,7 +119,7 @@
 
                 <!-- Modal Body Contact Us Form -->
                 <div class="modal-body">
-                    <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                    <form method="post" action="confirmation.html">
                         <div class="form-group">
                             <label for="username"><i class="fas fa-user"></i>  Name</label>
                             <input type="text" class="form-control" id="username" name="username" placeholder="Enter name" required>
@@ -147,7 +150,7 @@
                             <label class="form-check-label" for="exampleCheck1">I consent to Aviation Consultancy LLC collecting my data through this form.</label>
                         </div>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-success">Send</button>
+                        <button type="submit" class="btn btn-success" data-dismiss="#confirmation">Send</button>
                     </form>
                 </div>
 
