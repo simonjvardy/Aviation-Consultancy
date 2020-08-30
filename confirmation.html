@@ -37,7 +37,14 @@
         <div id="confirmation-jumbotron" class="row">
             <div class="col-12" data-toggle="modal" data-target="#confirmation">
                 <section class="jumbotron text-center">
-                    <img src="assets/images/logo-image-reverse.png" width="400" height="200" class="d-inline-block align-top" alt="" loading="lazy">
+                    <!-- Show the logo on tablet displays and larger only-->
+                    <div class="d-none d-sm-block">
+                        <img src="assets/images/logo-image-reverse.png" width="400" height="200" class="d-inline-block align-top" alt="" loading="lazy">
+                    </div>
+                    <!-- Show the Company name in text on mobile devices -->
+                    <div class="col-12 d-sm-none">
+                        <h1>Aviation Consultancy LLC</h1>
+                    </div>
                     <h1>Thank you!</h1>
                     <hr class="block-divider-sm-white">
                     <p>
