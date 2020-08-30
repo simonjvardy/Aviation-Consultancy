@@ -167,6 +167,16 @@ body {
     height: 320px;
 }
 
+/* -------------------------------------Contact Us Modal */
+
+.modal-header {
+    align-items: center;
+}
+
+.modal-header h2, .modal-body label {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* -------------------------------------Google Maps */
 
 .embed-responsive-16by9 {
