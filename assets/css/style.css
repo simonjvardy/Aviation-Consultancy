@@ -65,6 +65,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     /* end of copied Code Institute css code from the Whiskey Drop project */
 }
 
@@ -80,6 +81,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     /* end of copied Code Institute css code from the Whiskey Drop project */
 }
 
@@ -94,6 +96,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.confirmation-hero-container {
+    /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
+    height: 100vh;
+    background-color: transparent;
+    background: url('../images/aircraft-taxi-night.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* end of copied Code Institute css code from the Whiskey Drop project */
+    font-size: 1.1rem;
+    min-height: 200px;
+    padding: 20px;
 }
 
 /* -------------------------------------Jumbotron */
@@ -103,8 +125,8 @@ body {
 }
 
 .jumbotron h1 {
-    font-family: 'Arapey', serif;
-    font-size: 5rem;
+    font-family: 'Oswald', serif;
+    font-size: 4rem;
     font-weight: 700;
     color: white;
     text-shadow: 0 0 4px #000000;
@@ -251,6 +273,13 @@ body {
     height: 3px;
     border: 0;
     background-color: #444;
+}
+
+.block-divider-sm-white {
+    width: 40px;
+    height: 3px;
+    border: 0;
+    background-color: #fff;
 }
 
 /* -------------------------------------Accordion cards */
