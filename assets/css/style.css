@@ -128,7 +128,7 @@ body {
 
 .jumbotron h1 {
     font-family: 'Oswald', serif;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 700;
     color: white;
     text-shadow: 0 0 4px #000000;
@@ -165,6 +165,13 @@ body {
     background-color: white;
 }
 
+.feature-container-team h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.8rem;
+    padding-bottom: 20px;
+}
+
+
 .card-deck {
     justify-content: center;
 }
@@ -196,6 +203,7 @@ body {
 .card-styling-team h4,
 .card-styling h4 {
     font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
     padding-top: 10px;
 }
 
