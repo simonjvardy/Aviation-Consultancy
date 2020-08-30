@@ -53,6 +53,10 @@
             <div class="col-12">
                 <section class="jumbotron text-center">
                     <h1>Contact Us</h1>
+                    <p>
+                        Let us discuss your next project today.
+                    </p>
+                    <button type="button" class="btn btn-lg pill-btn" data-toggle="modal" data-target="#contactUsModal">CONTACT US</button>
                 </section>
             </div>
         </div>
@@ -105,6 +109,65 @@
     </div>
     <!-- /Google Maps -->
 
+    <!-- Contact Us Modal -->
+    <!-- Note: Unable to get the CONTACT US Button to link to the modal on index.html easily so copied the whole modal here as well -->
+    <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo-image.jpg" width="150" height="70" class="d-inline-block align-top" alt="" loading="lazy">
+                    </a>
+                    <h2 class="modal-title" id="contactUsModalLabel"> Contact Us</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <!-- Modal Body Contact Us Form -->
+                <div class="modal-body">
+                    <form action="confirmation.html">
+                        <div class="form-group">
+                            <label for="username"><i class="fas fa-user"></i>  Name</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i>  Email</label>
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber"><i class="fas fa-phone-alt"></i>  Phone No</label>
+                            <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="organisation"><i class="fas fa-building"></i>  Your Organisation</label>
+                            <input type="text" class="form-control" id="organisation" name="organisation" placeholder="Enter your organisation" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject"><i class="fas fa-tag"></i>  Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder=" Enter subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-pencil-alt"></i>  Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter message details..." required></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <label class="form-check-label" for="exampleCheck1">I consent to Aviation Consultancy LLC collecting my data through this form.</label>
+                        </div>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-success" data-dismiss="#confirmation">Send</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /Contact Us Modal-->
+    
     <!-- Testimonials Carousel -->
     <div id="testimonialCarousel" class="carousel slide testimonial-carousel mb-5" data-ride="carousel">
         <div class="carousel-inner">

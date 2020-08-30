@@ -105,7 +105,7 @@ body {
     /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
     height: 100vh;
     background-color: transparent;
-    background: url('../images/aircraft-taxi-night.jpg') no-repeat center fixed;
+    background: url('../images/aircraft-cabin.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -375,6 +375,14 @@ body {
 
 .icon-bg-sm ul li a i:hover {
     background-color: #444;
+}
+
+.sitemap ul li a {
+    color: #444;
+}
+
+.sitemap ul li a:hover {
+    color: #111 ;
 }
 
 /* -------------------------------------Media Queries */
