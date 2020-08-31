@@ -55,7 +55,6 @@ blend well with the aviation and sky themes.*
     - [Image editing](#image-editing)
     - [Inspiration](#inspiration)
     - [Acknowledgements](#acknowledgements)
-  - [- Embeds example code was copied and adapted for the Google Maps embedded iframe](#ulliembeds-example-code-was-copied-and-adapted-for-the-google-maps-embedded-iframeliul)
 
 ---
 
@@ -90,7 +89,6 @@ I achieve this by:
 - As a **user**, I can see a **hero image** welcoming the user to the site.
 - As a **user**, I can see **Call To Actions (CTA)** to learn more about the business and to make contact with the business.
 - As a **user**, I can see a carousel containing **customer testimonials** or **inspirational quotes**.
-- As a **user**, I can scroll back to the top of a page with the **click of a button**.
 - As a **user**, I can see a page describing the **services** provided by the business.
 - As a **user**, I can see a page describing the **company values**.
 - As a **user**, I can read a **biography** of **key personnel** in the company.
@@ -227,10 +225,11 @@ the page design and layout.
 ### Features Implemented ###
 
 - Responsive mobile first design using a [Bootstrap](https://getbootstrap.com/) framework.
-- User friendly display
+- User friendly display with lots of images
 - A Navbar with easy navigation that collapses on mobile displays
 - CTAs to encourage customers to make contact
-- A Contact Us pop-up modal with a form to submit user details and a request
+- A Contact Us pop-up modal with a form to submit user details and a message
+- A confirmation page after form submission allowing the user to return to the homepage.
 - Contact Us page with an embedded Google Maps to show the business location
 - Social media links
 - Bootstrap accordions to assist with readability of large amounts of text on mobile displays
@@ -241,6 +240,8 @@ the page design and layout.
 - Blog / news page
 - Case studies page
 - How We Work page
+- Scroll-back-to-top button
+- Full form submission linked with email
 
 ---
 
@@ -259,11 +260,25 @@ Search Engine Optimisation for the site was provided in three complementary ways
 The file was then saved in the GitHub repository root directory.
 
 - The following steps were used to generate the sitemap.xml file:
+  1. Visit [XML-Sitemaps.com](https://www.xml-sitemaps.com/) and enter the URL of the website https://simonjvardy.github.io/Aviation-Consultancy/
+  2. Click Start
+  3. The site pages will automatically be scanned 
+  4. Click View Sitemap Details
+  5. Download the XML sitemap file
+  6. Save the sitemap.xml file in the root directory of the GitHub repository
 
 #### Google Search Console ####
 - Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
 
 - The following steps were used to perform the indexing tests:
+  1.  Visit [Google Search Console](https://www.google.com/webmasters/tools/home)
+  2.  Click Add Property in the menu bar
+  3.  Enter the website URL https://simonjvardy.github.io/Aviation-Consultancy/
+  4.  Click Continue
+  5.  Download the unique verification file created by Google
+  6.  Save the [verification file](googlef750fda78af5a952.html) in the root directory of the GitHub repository
+  7.  On Google Search Console, click Verify
+  8.  Once the verification passes, the site is available in the Google Search COnsole dashboard.
 
 Even though this website has a small number of pages and have navigation links on each page making the Sitemap largely unnecessary, I felt is was a good experience and good practice to add these features in.
 Note: I haven't added a robots.txt file yet but may add this in the future when I understand more about search engine optimisation techniques.
@@ -415,6 +430,9 @@ You can find the images used for the site [here](assets/images). I have sourced 
   - The [Hero Image](assets/images/aircraft-hangar-front-web.jpg) image was sourced as a free to use image from [ Pikrepo.com](https://www.pikrepo.com/fiyrd/low-light-photographed-of-gray-plane-on-pathway)
   - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
 
+- Confirmation
+  - The [background](assets/images/aircraft-cabin.jpg) image was sourced as a free to use image from [Unsplash.com](https://unsplash.com/photos/iz6DadX_Fl4) credit: Lukas Souza
+
 ### Colour ###
 
 The colour palette was identified on [Coolors](https://coolors.co/)
@@ -428,7 +446,7 @@ The colour palette was identified on [Coolors](https://coolors.co/)
 
 The following websites were used for design and image ideas based on similar business sectors:
 - [Osprey Consulting Services](https://ospreycsl.co.uk/)
-- [IAG The Internatioanl Aviation Group](https://theaviationgroup.eu/mro/)
+- [IAG The International Aviation Group](https://theaviationgroup.eu/mro/)
 - [Aviation Analysts International](http://www.inter-aviation.com/)
 - [Aviation Consulting Services](https://aviationconsultingservices.com.au/)
 - [ICF](https://www.icf.com/)
@@ -468,4 +486,5 @@ The following website was used for design ideas and a clean modern look:
   - [Forms](https://getbootstrap.com/docs/4.5/components/forms/) example code was copied and adapted for the Contact Us form.
   - [Carousel](https://getbootstrap.com/docs/4.5/components/carousel/) example code was copied and adapted for the testimonials carousel.
   - [Embeds](https://getbootstrap.com/docs/4.0/utilities/embed/) example code was copied and adapted for the Google Maps embedded iframe
+  
 ---
