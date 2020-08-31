@@ -385,21 +385,25 @@ You can find the images used for the site [here](assets/images). I have sourced 
 - Homepage
   - The [Callout Hero Image](assets/images/aircraft-hangar-lg.jpg) was sourced and used under license from Shutterstock.com
   - The card deck image caps:
-    - [engine-fanblades.jpg](assets/images/engine-fanblades.jpg) image was sourced and used under license from Shutterstock.com
-    - [aircraft-hangar-front.jpg](assets/images/aircraft-hangar-front.jpg) image is used courtesy of [Jetstar Airways sourced from Flickr.com](https://www.flickr.com/photos/jetstarairways/6768081235)
-    - [Aircraft-terminal-dusk.jpg](assets/images/aircraft-terminal-dusk.jpg) image was sourced as a free to use image from [Pikrepo.com](https://www.pikrepo.com/fbxpn/white-and-blue-airplane-under-blue-sky-during-daytime)
+    - [Our Services](assets/images/engine-fanblades.jpg) image was sourced and used under license from Shutterstock.com
+    - [About Us](assets/images/aircraft-hangar-front.jpg) image is used courtesy of [Jetstar Airways sourced from Flickr.com](https://www.flickr.com/photos/jetstarairways/6768081235)
+    - [TBC](assets/images/aircraft-terminal-dusk.jpg) image was sourced as a free to use image from [Pikrepo.com](https://www.pikrepo.com/fbxpn/white-and-blue-airplane-under-blue-sky-during-daytime)
   - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
 
 - Our Services
   - The [Hero Image](assets/images/aircraft-engine.jpg) was sourced as a free to use image from [Pexels.com](https://www.pexels.com/photo/airplane-engine-459402/)
+  - The card deck image caps:
+    - [Data Analysis](assets/images/man-touch-finger-digital-change-data.jpg) image was sourced as a free to use image from [Pikist.com](https://www.pikist.com/free-photo-swtdf)
+    - [Data Migration](assets/images/man-touch-finger-data-network.jpg) image was sourced as a free to use image from [Pikist.com](https://www.pikist.com/free-photo-sshpj)
+    - [Data Integrity](assets/images/man-touch-finger-data-connection.jpg) image was sourced as a free to use image from [Pikist.com](https://www.pikist.com/free-photo-vddfz)
   - The Testimonials carousel [background image](assets/images/above-the-clouds.jpg) was used with kind permission by Arun Kulshreshtha - Own work, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=1902748
 
 - About Us
   - The [Hero Image](assets/images/aircraft-hangar-front-web.jpg)  image is used courtesy of [Jetstar Airways sourced from Flickr.com](https://www.flickr.com/photos/jetstarairways/6768081235)
   - The card deck image caps:
-    - [departure-board.jpg](assets/images/departure-board.jpg) image was sourced as a free to use image from [Pikrepo.com](https://www.pikrepo.com/favaw/airplane-flight-schedules)
-    - [escalator.jpg](assets/images/escalator.jpg) image was sourced as a free to use image from [Pxfuel.com](https://www.pxfuel.com/en/free-photo-xppcq)
-    - [travelator.jpg](assets/images/travelator.jpg) image was sourced as a free to use image from [pixabay.com](https://pixabay.com/photos/travelator-walkway-travel-airport-1209281/)
+    - [Expertise](assets/images/departure-board.jpg) image was sourced as a free to use image from [Pikrepo.com](https://www.pikrepo.com/favaw/airplane-flight-schedules)
+    - [Integrity](assets/images/escalator.jpg) image was sourced as a free to use image from [Pxfuel.com](https://www.pxfuel.com/en/free-photo-xppcq)
+    - [Innovation](assets/images/travelator.jpg) image was sourced as a free to use image from [pixabay.com](https://pixabay.com/photos/travelator-walkway-travel-airport-1209281/)
   - The fictitious Meet The Team portrait images:
     - ['Thomas Brooks'](assets/images/portrait-man-1.jpg) was sourced and used under license from Shutterstock.com
     - ['Dr. Mary Hoffman'](assets/images/portrait-woman-1.jpg) was sourced and used under license from Shutterstock.com
