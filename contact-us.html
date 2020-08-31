@@ -19,220 +19,232 @@
 
 <body>
     <!-- Navbar section -->
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo-image.jpg" width="150" height="70" class="d-inline-block align-top" alt="" loading="lazy">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mr-4">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item mr-4">
-                        <a class="nav-link" href="our-services.html">Our Services</a>
-                    </li>
-                    <li class="nav-item mr-4">
-                        <a class="nav-link" href="about-us.html">About Us</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact-us.html">Contact Us <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo-image.jpg" width="150" height="70" class="d-inline-block align-top" alt="" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mr-4">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link" href="our-services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact-us.html">Contact Us <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
     <!-- /Navbar Section -->
 
-    <!-- Hero Image -->
-    <div class="container-fluid contact-us-hero-container mb-5">
-        <div id="contact-hero-jumbotron" class="row">
-            <div class="col-12">
-                <section class="jumbotron text-center">
-                    <h1>Contact Us</h1>
+    <main>
+        <!-- Hero Image -->
+        <div class="container-fluid contact-us-hero-container mb-5">
+            <div id="contact-hero-jumbotron" class="row">
+                <div class="col-12">
+                    <section class="jumbotron text-center">
+                        <h1>Contact Us</h1>
+                        <p>
+                            Let us discuss your next project today.
+                        </p>
+                        <button type="button" class="btn btn-lg pill-btn" data-toggle="modal" data-target="#contactUsModal">CONTACT US</button>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- /Hero Image -->
+
+        <!-- Contact Us Section-->
+        <div class="container-fluid mx-auto mb-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 offset-md-3 text-center icon-bg contact-us-card mb-3">
+                    <h2><i class="fas fa-map-marker-alt"></i></h2>
+                    <h3><strong>Address</strong></h3>
                     <p>
-                        Let us discuss your next project today.
-                    </p>
-                    <button type="button" class="btn btn-lg pill-btn" data-toggle="modal" data-target="#contactUsModal">CONTACT US</button>
-                </section>
-            </div>
-        </div>
-    </div>
-    <!-- /Hero Image -->
-
-    <!-- Contact Us Section-->
-    <div class="container-fluid mx-auto mb-5">
-        <div class="row">
-            <div class="col-sm-12 col-md-2 offset-md-3 text-center icon-bg contact-us-card mb-3">
-                <h2><i class="fas fa-map-marker-alt"></i></h2>
-                <h3><strong>Address</strong></h3>
-                <p>
-                    Aviation Consultancy LLC<br>
-                    World Business Centre 3, Newall Road,<br>
-                    London Heathrow Airport,<br>
-                    Middlesex, TW6 2TA<br>
-                    <strong>United Kingdom.</strong>
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-2 text-center icon-bg contact-us-card mb-3">
-                <h2><i class="fas fa-phone-alt"></i></h2>
-                <h3><strong>Call Center</strong></h3>
-                <p>
-                    Please call us to discuss your next project with one of our consultants.
-                </p>
-                <p>
-                    <strong>+44 (0)208 042 200888</strong>
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-2 text-center contact-us-card icon-bg">
-                <h2><i class="fas fa-envelope"></i></h2>
-                <h3><strong>Support</strong></h3>
-                <p>
-                    Please feel free to send us an email or to use our electronic ticketing system
-                </p>
-                <p>
-                    <a href="mailto:info@aviation-consulting-llc.com"><strong>info@aviation-consulting-llc.com</strong></a><br>
-                    <a href="mailto:contact@aviation-consulting-llc.com"><strong>contact@aviation-consulting-llc.com</strong></a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- /Contact Us Section -->
-
-    <!-- Google Maps -->
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe title="Google maps business location" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.786364891234!2d-0.44252038391385673!3d51.48043557963054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876724f245de2d3%3A0xdfda817ea362ba2d!2sWorld%20Business%20Centre%203!5e0!3m2!1sen!2suk!4v1598384522499!5m2!1sen!2suk" 
-        width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-    <!-- /Google Maps -->
-
-    <!-- Contact Us Modal -->
-    <!-- Note: Unable to get the CONTACT US Button to link to the modal on index.html easily so copied the whole modal here as well -->
-    <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/logo-image.jpg" width="150" height="70" class="d-inline-block align-top" alt="" loading="lazy">
-                    </a>
-                    <h2 class="modal-title" id="contactUsModalLabel"> Contact Us</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <!-- Modal Body Contact Us Form -->
-                <div class="modal-body">
-                    <form action="confirmation.html">
-                        <div class="form-group">
-                            <label for="username"><i class="fas fa-user"></i></label>
-                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email"><i class="fas fa-envelope"></i></label>
-                            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="phoneNumber"><i class="fas fa-phone-alt"></i></label>
-                            <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="organisation"><i class="fas fa-building"></i></label>
-                            <input type="text" class="form-control" id="organisation" name="organisation" placeholder="Enter your organisation" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject"><i class="fas fa-tag"></i></label>
-                            <input type="text" class="form-control" id="subject" name="subject" placeholder=" Enter subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message"><i class="fas fa-pencil-alt"></i></label>
-                            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter message details..." required></textarea>
-                        </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                            <label class="form-check-label" for="exampleCheck1">I consent to Aviation Consultancy LLC collecting my data through this form.</label>
-                        </div>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-success" data-dismiss="#confirmation">Send</button>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- /Contact Us Modal-->
-    
-    <!-- Testimonials Carousel -->
-    <div id="testimonialCarousel" class="carousel slide testimonial-carousel mb-5" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="7000">
-                <div class="col-sm-6 offset-sm-3">
-                    <p class="text-center">
-                        <i class="fas fa-quote-left"></i>
-                    </p>
-                    <p class="text-center">
-                        "Aviation Consultancy LLC has been an inspirational partner in delivering our revolutionary flight tracking software providing realtime location data of our entire fleet of aircraft."
-                    </p>
-                    <p class="text-center" >
-                        <strong><span>Michael Orteig</span></strong>
-                    </p>
-                    <p class="text-center" >
-                        <span>President</span><br>
-                        <span>Oceanic Airlines</span>
+                        Aviation Consultancy LLC<br>
+                        World Business Centre 3, Newall Road,<br>
+                        London Heathrow Airport,<br>
+                        Middlesex, TW6 2TA<br>
+                        <strong>United Kingdom.</strong>
                     </p>
                 </div>
-            </div>
-            <div class="carousel-item" data-interval="7000">
-                <div class="col-sm-6 offset-sm-3">
-                    <p class="text-center">
-                        <i class="fas fa-quote-left"></i>
+                <div class="col-sm-12 col-md-2 text-center icon-bg contact-us-card mb-3">
+                    <h2><i class="fas fa-phone-alt"></i></h2>
+                    <h3><strong>Call Center</strong></h3>
+                    <p>
+                        Please call us to discuss your next project with one of our consultants.
                     </p>
-                    <p class="text-center">
-                        "The installation of upgraded flight planning software and data migration has been delivered with the integrity, quality and professionalism we have come to expect from Aviation Consultancy LLC."
-                    </p>
-                    <p class="text-center" >
-                        <strong><span>Frank J. Lapidus</span></strong>
-                    </p>
-                    <p class="text-center" >
-                        <span>Captain</span><br>
-                        <span>Ajira Airways</span>
+                    <p>
+                        <strong>+44 (0)208 042 200888</strong>
                     </p>
                 </div>
-            </div>
-            <div class="carousel-item" data-interval="7000">
-                <div class="col-sm-6 offset-sm-3">
-                    <p class="text-center">
-                        <i class="fas fa-quote-left"></i>
+                <div class="col-sm-12 col-md-2 text-center contact-us-card icon-bg">
+                    <h2><i class="fas fa-envelope"></i></h2>
+                    <h3><strong>Support</strong></h3>
+                    <p>
+                        Please feel free to send us an email or to use our electronic ticketing system
                     </p>
-                    <p class="text-center">
-                        "Aviation Consultancy LLC. has partnered the DHARMA Initiative in developing groundbreaking research and development in the field of data integrity in high magnetic field environments."
-                    </p>
-                    <p class="text-center" >
-                        <strong><span>Dr. Pierre Chang</span></strong>
-                    </p>
-                    <p class="text-center" >
-                        <span>Theoretical Astrophysicist</span><br>
-                        <span>DHARMA Initiative</span>
+                    <p>
+                        <a href="mailto:info@aviation-consulting-llc.com"><strong>info@aviation-consulting-llc.com</strong></a><br>
+                        <a href="mailto:contact@aviation-consulting-llc.com"><strong>contact@aviation-consulting-llc.com</strong></a>
                     </p>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!-- /Testimonials Carousel -->
+        <!-- /Contact Us Section -->
+
+        <!-- Google Maps -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe title="Google maps business location" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.786364891234!2d-0.44252038391385673!3d51.48043557963054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876724f245de2d3%3A0xdfda817ea362ba2d!2sWorld%20Business%20Centre%203!5e0!3m2!1sen!2suk!4v1598384522499!5m2!1sen!2suk" 
+            width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <!-- /Google Maps -->
+
+        <!-- Contact Us Modal -->
+        <!-- Note: Unable to get the CONTACT US Button to link to the modal on index.html easily so copied the whole modal here as well -->
+        <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo-image.jpg" width="150" height="70" class="d-inline-block align-top" alt="" loading="lazy">
+                        </a>
+                        <h2 class="modal-title" id="contactUsModalLabel"> Contact Us</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- Modal Body Contact Us Form -->
+                    <div class="modal-body">
+                        <form action="confirmation.html">
+                            <!-- Username -->
+                            <div class="form-group">
+                                <label for="username"><i class="fas fa-user"></i></label>
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Enter name" required>
+                            </div>
+                            <!-- Email Address -->
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i></label>
+                                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <!-- Phone Number -->
+                            <div class="form-group">
+                                <label for="phoneNumber"><i class="fas fa-phone-alt"></i></label>
+                                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+                            </div>
+                            <!-- Organisation Name -->
+                            <div class="form-group">
+                                <label for="organisation"><i class="fas fa-building"></i></label>
+                                <input type="text" class="form-control" id="organisation" name="organisation" placeholder="Enter your organisation" required>
+                            </div>
+                            <!-- Message Subject -->
+                            <div class="form-group">
+                                <label for="subject"><i class="fas fa-tag"></i></label>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder=" Enter subject" required>
+                            </div>
+                            <!-- Message textarea -->
+                            <div class="form-group">
+                                <label for="message"><i class="fas fa-pencil-alt"></i></label>
+                                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter message details..." required></textarea>
+                            </div>
+                            <!-- Consent checkbox -->
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                <label class="form-check-label" for="exampleCheck1">I consent to Aviation Consultancy LLC collecting my data through this form.</label>
+                            </div>
+                            <!-- Cancel / Send buttons -->
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-success" data-dismiss="#confirmation">Send</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /Contact Us Modal-->
+        
+        <!-- Testimonials Carousel -->
+        <div id="testimonialCarousel" class="carousel slide testimonial-carousel mb-5" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="7000">
+                    <div class="col-sm-6 offset-sm-3">
+                        <p class="text-center">
+                            <i class="fas fa-quote-left"></i>
+                        </p>
+                        <p class="text-center">
+                            "Aviation Consultancy LLC has been an inspirational partner in delivering our revolutionary flight tracking software providing realtime location data of our entire fleet of aircraft."
+                        </p>
+                        <p class="text-center" >
+                            <strong><span>Michael Orteig</span></strong>
+                        </p>
+                        <p class="text-center" >
+                            <span>President</span><br>
+                            <span>Oceanic Airlines</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="7000">
+                    <div class="col-sm-6 offset-sm-3">
+                        <p class="text-center">
+                            <i class="fas fa-quote-left"></i>
+                        </p>
+                        <p class="text-center">
+                            "The installation of upgraded flight planning software and data migration has been delivered with the integrity, quality and professionalism we have come to expect from Aviation Consultancy LLC."
+                        </p>
+                        <p class="text-center" >
+                            <strong><span>Frank J. Lapidus</span></strong>
+                        </p>
+                        <p class="text-center" >
+                            <span>Captain</span><br>
+                            <span>Ajira Airways</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="7000">
+                    <div class="col-sm-6 offset-sm-3">
+                        <p class="text-center">
+                            <i class="fas fa-quote-left"></i>
+                        </p>
+                        <p class="text-center">
+                            "Aviation Consultancy LLC. has partnered the DHARMA Initiative in developing groundbreaking research and development in the field of data integrity in high magnetic field environments."
+                        </p>
+                        <p class="text-center" >
+                            <strong><span>Dr. Pierre Chang</span></strong>
+                        </p>
+                        <p class="text-center" >
+                            <span>Theoretical Astrophysicist</span><br>
+                            <span>DHARMA Initiative</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- /Testimonials Carousel -->
+    </main>
 
     <!-- Footer -->
     <footer class="container-fluid footer-container text-center">
