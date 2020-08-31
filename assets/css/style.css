@@ -177,14 +177,23 @@ body {
     padding-bottom: 20px;
 }
 
+.card {
+    border-bottom: 5px solid #777;
+}
+
 
 .card-deck {
     justify-content: center;
 }
 
-.card-styling {
+.card-styling,
+.card-styling-feature {
     max-width: 30rem;
     min-width: 15rem;
+}
+
+.card-styling-feature:hover {
+    border-bottom: 5px solid lightBlue;
 }
 
 .card-img-top {
