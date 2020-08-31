@@ -31,7 +31,6 @@ blend well with the aviation and sky themes.*
     - [Languages](#languages)
     - [Libraries](#libraries)
     - [Tools](#tools)
-  - [- A suite of productivity apps used to design the Aviation Consultancy LLC logo](#ullia-suite-of-productivity-apps-used-to-design-the-aviation-consultancy-llc-logoliul)
   - [Features](#features)
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
@@ -220,6 +219,7 @@ the page design and layout.
   - An online tool to generate random names for the team members in the About Us page.
 - [Microsoft Office365](https://www.microsoft.com/en-gb/microsoft-365)
   - A suite of productivity apps used to design the Aviation Consultancy LLC logo
+
 ---
 
 ## Features ##
