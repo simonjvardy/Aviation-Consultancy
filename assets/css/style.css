@@ -35,7 +35,7 @@ body {
     justify-content: center;
     position: relative;
 /* end of copied Code Institute css code from the Whiskey Drop project */
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     min-height: 200px;
     padding: 20px;
 }
@@ -136,11 +136,17 @@ body {
 }
 
 .jumbotron p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: white;
     text-shadow: 0 0 4px #000000;
     margin: 20px 0;
+}
+
+.jumbotron-logo img {
+    max-width: 100%;
+    width: 575px;
+    height: auto;
 }
 
 /* -------------------------------------Buttons */
@@ -390,8 +396,18 @@ body {
 
 @media screen and (max-width: 943px) {
     .jumbotron h1 {
-        font-family: 'Arapey', serif;
-        font-size: 2.5rem;
+        font-size: 5rem;
+    }
+    .jumbotron p {
+        font-size: 1.4rem;
+    }
+}
+
+/* -------------------------------------Responsive Design - MOBILE*/
+
+@media screen and (max-width: 430px) {
+    .jumbotron h1 {
+        font-size: 3rem;
     }
     .jumbotron p {
         font-size: 1.2rem;
