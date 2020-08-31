@@ -8,9 +8,12 @@ body {
     /*background-image: linear-gradient(#fff,#777);*/
 }
 
-/* Added to prevent the problems of elements oververflowing horizontally on mobile devices */
+/* Added to prevent the problems of elements overflowing horizontally on mobile devices */
+.row,
+.container,
 .container-fluid {
-    padding: 15px;
+    padding: 0px;
+    margin: 0;
     overflow-x: hidden;
 }
 
@@ -216,11 +219,19 @@ body {
 }
 
 .card-styling-team h4,
+.card-styling-feature h4,
 .card-styling h4 {
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     padding-top: 10px;
 }
+
+.card-styling-team p,
+.card-styling-feature p,
+.card-styling p {
+    padding: 0 10px 10px 10px;
+}
+
 
 /* -------------------------------------Contact Us Modal */
 
@@ -241,7 +252,33 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-/* -------------------------------------Google Maps */
+/* -------------------------------------Contact Us Page */
+/* -------------------------------------Contact Us cards */
+
+.icon-bg h2 i {
+    height: 70px;
+    width: 70px;
+    padding: 20px 0;
+    border-radius: 50%;
+    background-color: lightBlue;
+    text-align: center;
+    margin: auto;
+}
+
+.contact-us-card h3 {
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+}
+
+.contact-us-card p a {
+    color: #444;
+}
+
+.contact-us-card p a:hover {
+    color: #000;
+}
+
+/* -------------------------------------Google Maps iframe */
 
 .embed-responsive-16by9 {
   max-height: 600px;
@@ -278,23 +315,6 @@ body {
     font-size: 0.9rem;
     font-weight: 600;
     color: white;
-}
-
-/* -------------------------------------Contact Us Page */
-
-.icon-bg h2 i {
-    height: 70px;
-    width: 70px;
-    padding: 20px 0;
-    border-radius: 50%;
-    background-color: lightBlue;
-    text-align: center;
-    margin: auto;
-}
-
-.contact-us-card h3 {
-    font-family: 'Oswald', sans-serif;
-    padding: 10px 0;
 }
 
 /* -------------------------------------Privacy + Terms and Conditions Page */
