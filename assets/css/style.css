@@ -76,7 +76,7 @@ body {
     /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
     height:700px;
     width: 100%;
-    background: url('../images/aircraft-hangar-front-web.jpg') no-repeat center fixed;
+    background: url('../images/aircraft-hangar-front.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -319,7 +319,8 @@ body {
 
 /* -------------------------------------Privacy + Terms and Conditions Page */
 
-.privacy-header h2, .terms-header h2 {
+.privacy-header h2, 
+.terms-header h2 {
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -421,7 +422,7 @@ body {
 }
 
 /* -------------------------------------Media Queries */
-/* -------------------------------------Responsive Design - TABLET*/
+/* -------------------------------------Responsive Design - TABLET */
 
 @media screen and (max-width: 943px) {
     .jumbotron h1 {
@@ -432,7 +433,7 @@ body {
     }
 }
 
-/* -------------------------------------Responsive Design - MOBILE*/
+/* -------------------------------------Responsive Design - MOBILE */
 
 @media screen and (max-width: 430px) {
     .jumbotron h1 {
@@ -441,15 +442,42 @@ body {
     .jumbotron p {
         font-size: 1.2rem;
     }
+}`
+
+/* -------------------------------------Responsive Design - Apple Products Fix */
+/* Apple devices do not support background-attachment: fixed; which has caused the background images to display incorrectly*/
+/* These media queries are a workaround to try to fix issue #60 by adding smaller image versions and setting the */
+/* background-attachment: scroll; for all devices smaller than 1120px device width which covers most iPhones and iPads */
+/* in portrait and landscape modes */
+
+
+@media screen and (max-width: 1120px) {
+    .callout-container {
+        background: url('../images/aircraft-hangar-960w.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+    .testimonial-carousel {
+        background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+    .our-services-hero-container {
+        background: url('../images/aircraft-engine-960w.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+    .about-us-hero-container {
+        background: url('../images/aircraft-hangar-front-web-960w.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+    .contact-us-hero-container {
+        background: url('../images/aircraft-taxi-night-960w.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
 }
 
-/* Apple devices do not support background-attachment: fixed; displaying background images incorrectly*/
-/* These media queries are a workaround to try to fix device specific display issues rather than using */
-/* background-attachment: scroll; for all devices */
 
 /* -------------------------------------iPhone XS Max Optional */
 /* -------------------------------------Portrait */
-
+/*
 @media only screen 
     and (min-width: 414px)
     and (max-width: 414px)
@@ -465,7 +493,7 @@ body {
 }
 
 /* -------------------------------------Landscape */
-
+/*
   @media only screen 
     and (min-width: 896px)
     and (max-width: 896px)
@@ -478,5 +506,5 @@ body {
             background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
             background-size: 100%
         }
-    }
+    }*/
     
