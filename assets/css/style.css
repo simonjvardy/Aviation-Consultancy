@@ -474,37 +474,3 @@ body {
     }
 }
 
-
-/* -------------------------------------iPhone XS Max Optional */
-/* -------------------------------------Portrait */
-/*
-@media only screen 
-    and (min-width: 414px)
-    and (max-width: 414px)
-    and (orientation: portrait) {
-        .callout-container {
-            background: url('../images/aircraft-hangar-lg.jpg') no-repeat center scroll;
-            background-size: auto;
-        }
-        .testimonial-carousel {
-            background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
-            background-size: auto;
-    }
-}
-
-/* -------------------------------------Landscape */
-/*
-  @media only screen 
-    and (min-width: 896px)
-    and (max-width: 896px)
-    and (orientation: landscape) {
-        .callout-container {
-            background: url('../images/aircraft-hangar-lg.jpg') no-repeat center scroll;
-            background-size: 100%
-        }
-        .testimonial-carousel {
-            background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
-            background-size: 100%
-        }
-    }*/
-    
