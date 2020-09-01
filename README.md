@@ -1,11 +1,11 @@
-# ![Aviation Consultancy](assets/images/logo-image.jpg) #
+![Aviation Consultancy](assets/images/logo-image.jpg)
 
 ***Aviation Consultancy LLC** is (fictitious) consultancy business specialising in aircraft maintenance data and regulatory compliance, based at 
 London Heathrow Airport.
 I designed the website to be a showcase of the available services and a means for new customers to make contact with the business allowing project and service requests to be submitted. 
 It's services are B2B so not required to sell any products directly via the site.*
 
-![Logo](/wireframes/am-i-responsive.jpg) 
+![Responsive Layout Screenshots](/wireframes/am-i-responsive.jpg) 
 
 *I created the Aviation Consultancy LLC logo to present a professional, trustworthy image based on research of similar contemporary consultancy service websites 
 (details of these websites can be found in the Credits section). The colour scheme was chosen from the Blue / Green colours to reflect a calm balanced approach as well as to 
@@ -13,48 +13,47 @@ blend well with the aviation and sky themes.*
 
 ## Contents ##
 
-- [!Aviation Consultancy](#img-srcassetsimageslogo-imagejpg-altaviation-consultancy)
-  - [Contents](#contents)
-  - [UX (User Experience)](#ux-user-experience)
-    - [Project Goals](#project-goals)
-    - [User Goals](#user-goals)
-    - [User Stories](#user-stories)
-    - [Site Owner Goals](#site-owner-goals)
-  - [Design Choices](#design-choices)
-    - [Topology](#topology)
-    - [Fonts](#fonts)
-    - [Colours](#colours)
-    - [Wireframes](#wireframes)
-      - [Hand drawn drafts](#hand-drawn-drafts)
-      - [Final Wireframes](#final-wireframes)
-  - [Technologies](#technologies)
-    - [Languages](#languages)
-    - [Libraries](#libraries)
-    - [Tools](#tools)
-  - [Features](#features)
-    - [Features Implemented](#features-implemented)
-    - [Future Features](#future-features)
-  - [SEO](#seo)
-      - [HTML Sitemap links](#html-sitemap-links)
-      - [XML Sitemap file](#xml-sitemap-file)
-      - [Google Search Console](#google-search-console)
-  - [Version Control](#version-control)
-      - [Gitpod Workspaces](#gitpod-workspaces)
-      - [Branches](#branches)
-      - [Working within a branch](#working-within-a-branch)
-      - [Merging branches in GitHub](#merging-branches-in-github)
-      - [Update Gitpod with the latest GitHub commits](#update-gitpod-with-the-latest-github-commits)
-  - [Project Management](#project-management)
-  - [Testing](#testing)
-  - [Bugs](#bugs)
-  - [Deployment](#deployment)
-    - [Running Aviation-Consultancy Locally](#running-aviation-consultancy-locally)
-  - [Credits](#credits)
-    - [Images](#images)
-    - [Colour](#colour)
-    - [Image editing](#image-editing)
-    - [Inspiration](#inspiration)
-    - [Acknowledgements](#acknowledgements)
+- [Contents](#contents)
+- [UX (User Experience)](#ux-user-experience)
+  - [Project Goals](#project-goals)
+  - [User Goals](#user-goals)
+  - [User Stories](#user-stories)
+  - [Site Owner Goals](#site-owner-goals)
+- [Design Choices](#design-choices)
+  - [Topology](#topology)
+  - [Fonts](#fonts)
+  - [Colours](#colours)
+  - [Wireframes](#wireframes)
+    - [Hand drawn drafts](#hand-drawn-drafts)
+    - [Final Wireframes](#final-wireframes)
+- [Technologies](#technologies)
+  - [Languages](#languages)
+  - [Libraries](#libraries)
+  - [Tools](#tools)
+- [Features](#features)
+  - [Features Implemented](#features-implemented)
+  - [Future Features](#future-features)
+- [SEO](#seo)
+    - [HTML Sitemap links](#html-sitemap-links)
+    - [XML Sitemap file](#xml-sitemap-file)
+    - [Google Search Console](#google-search-console)
+- [Version Control](#version-control)
+    - [Gitpod Workspaces](#gitpod-workspaces)
+    - [Branches](#branches)
+    - [Working within a branch](#working-within-a-branch)
+    - [Merging branches in GitHub](#merging-branches-in-github)
+    - [Update Gitpod with the latest GitHub commits](#update-gitpod-with-the-latest-github-commits)
+- [Project Management](#project-management)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+  - [Running Aviation-Consultancy Locally](#running-aviation-consultancy-locally)
+- [Credits](#credits)
+  - [Images](#images)
+  - [Colour](#colour)
+  - [Image editing](#image-editing)
+  - [Inspiration](#inspiration)
+  - [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -478,6 +477,7 @@ The following website was used for design ideas and a clean modern look:
 - [Backlinko](https://backlinko.com/hub/seo/sitemaps) for SEO Sitemaps help and ideas.
 - [Google Search Console Help](https://support.google.com/webmasters/answer/9128668?hl=en) on how to use Google Search Console and troubleshooting techniques.
 - [Stack Overflow](https://stackoverflow.com/questions/49042458/how-do-i-create-a-transparent-jumbotron-with-bootstrap-v-4-0-0) for fixing the Jumbotron background problem.
+- [Lost TV Series](https://en.wikipedia.org/wiki/Lost_(TV_series)) fictitious character and airline names used in the testimonials are owned by [ABC.com](https://abc.com/) / [ABC Studios](https://www.wdtvpress.com/) and are used purely for light-hearted "easter eggs" on the website by a diehard fan of the long-running TV series.
 - [Bootstrap](https://getbootstrap.com/)
   - [Accordion](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example) example code was copied and adapted for the Privacy Policy and Terms and Conditions pages
   - [Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/) example code was copied and adapted for the Home page CTA / Hero image.
