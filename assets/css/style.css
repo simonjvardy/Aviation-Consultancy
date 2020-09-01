@@ -442,7 +442,7 @@ body {
     .jumbotron p {
         font-size: 1.2rem;
     }
-}`
+}
 
 /* -------------------------------------Responsive Design - Apple Products Fix */
 /* Apple devices do not support background-attachment: fixed; which has caused the background images to display incorrectly*/
