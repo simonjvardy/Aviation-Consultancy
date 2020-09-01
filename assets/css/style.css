@@ -255,7 +255,8 @@ body {
 /* -------------------------------------Contact Us Page */
 /* -------------------------------------Contact Us cards */
 
-.icon-bg h2 i {
+.icon-bg span i {
+    font-size: 2rem;
     height: 70px;
     width: 70px;
     padding: 20px 0;
@@ -411,6 +412,12 @@ body {
 
 .icon-bg-sm ul li a i:hover {
     background-color: #444;
+}
+
+.sitemap span i,
+.contact-address span i {
+    font-size: 1.3rem;
+    font-weight: bolder;
 }
 
 .sitemap ul li a {
