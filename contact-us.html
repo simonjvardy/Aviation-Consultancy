@@ -67,9 +67,9 @@
         <!-- /Hero Image -->
 
         <!-- Contact Us Section-->
-        <div class="container-fluid mx-auto mb-5">
+        <div class="container-fluid mb-5">
             <div class="row">
-                <div class="col-sm-12 col-md-2 offset-md-3 text-center icon-bg contact-us-card mb-3">
+                <div class="col-sm-12 col-md-3 text-center icon-bg contact-us-card mx-auto mb-3">
                     <span><i class="fas fa-map-marker-alt"></i></span>
                     <h3><strong>Address</strong></h3>
                     <p>
@@ -80,7 +80,7 @@
                         <strong>United Kingdom.</strong>
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-2 text-center icon-bg contact-us-card mb-3">
+                <div class="col-sm-12 col-md-3 text-center icon-bg contact-us-card mx-auto mb-3">
                     <span><i class="fas fa-phone-alt"></i></span>
                     <h3><strong>Call Center</strong></h3>
                     <p>
@@ -90,16 +90,23 @@
                         <strong>+44 (0)208 042 200888</strong>
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-2 text-center contact-us-card icon-bg">
+                <div class="col-sm-12 col-md-3 text-center contact-us-card mx-auto icon-bg">
                     <span><i class="fas fa-envelope"></i></span>
                     <h3><strong>Support</strong></h3>
                     <p>
                         Please feel free to send us an email or to use our electronic ticketing system
                     </p>
-                    <p>
-                        <a href="mailto:info@aviation-consulting-llc.com"><strong>info@aviation-consulting-llc.com</strong></a><br>
-                        <a href="mailto:contact@aviation-consulting-llc.com"><strong>contact@aviation-consulting-llc.com</strong></a>
+                    <!-- long email addresses wrap to the next line as the page width reduces -->
+                    <!-- media queries attempt to improve the design by replacing them with smaller email links --> 
+                    <p class="large-email">
+                        <span><a href="mailto:info@aviation-consulting-llc.com"><strong>info@aviation-consulting-llc.com</strong></a></span><br>
+                        <span><a href="mailto:support@aviation-consulting-llc.com"><strong>support@aviation-consulting-llc.com</strong></a></span>
                     </p>
+                    <p class="small-email">
+                        <span><a href="mailto:info@aviation-consulting-llc.com"><strong><i class="fas fa-envelope"></i> Info email</strong></a></span><br>
+                        <span><a href="mailto:support@aviation-consulting-llc.com"><strong><i class="fas fa-envelope"></i> Support email</strong></a></span>
+                    </p>
+
                 </div>
             </div>
         </div>
