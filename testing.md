@@ -15,11 +15,12 @@
   - [Validation Services](#validation-services)
 - [Manual Testing](#manual-testing)
   - [Unit Testing](#unit-testing)
-  - [Functional Testing](#functional-testing-(combined-integration-and-system-testing))
   - [User Acceptance Testing (UAT)](#user-acceptance-testing-(uat))
+  - [Peer Code Review](#peer-code-review)
   - [Testing undertaken on desktop](#testing-undertaken-on-desktop)
   - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
 - [Bugs discovered](#bugs-discovered)
+  - [Known Bugs](#known-bugs)
   - [Unsolved Bugs](#unsolved-bugs)
 
 
