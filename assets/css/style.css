@@ -269,7 +269,7 @@ body {
 /* -------------------------------------Contact Us Page */
 /* -------------------------------------Contact Us cards */
 
-.icon-bg span i {
+.icon-bg>span>i {
     font-size: 2rem;
     height: 70px;
     width: 70px;
@@ -291,6 +291,10 @@ body {
 
 .contact-us-card p a:hover {
     color: #000;
+}
+
+.small-email {
+    display: none;
 }
 
 /* -------------------------------------Google Maps iframe */
@@ -472,7 +476,7 @@ body {
 /* in portrait and landscape modes */
 
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1366px) {
     .callout-container {
         background: url('../images/aircraft-hangar-960w.jpg') no-repeat center scroll;
         background-size: cover;
@@ -495,3 +499,23 @@ body {
     }
 }
 
+/* -------------------------------------Responsive Design - Contact Us Support email */
+/* long email addresses wrap to the next line as the page width reduces -*/
+/* these media queries attempt to improve the design by replacing them with smaller email links */
+/* until the bootstrap grid resizes to a single column */
+
+@media screen and (max-width: 1192px) and (min-width: 767px) {
+    .large-email {
+        display: none;
+    }
+    .small-email {
+        display: inline-block
+    }
+}
+
+/* return the email address to normal once the page reaches col-12 grid layout on mobile displays */
+@media screen and (max-width: 767px) {
+    .small-email {
+        display: none;
+    }
+}
