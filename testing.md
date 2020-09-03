@@ -86,10 +86,11 @@ The deployed website link was uploaded to the following sites for peer code revi
     - iPad Pro 12.9"
     - iPad Pro 10.5"
     - iPhone XS Max
-    - Samsung Galaxy S20
+    - Samsung Galaxy S20 Ultra
 - Tested Operating Systems:
     - iOS 13.6.1
     - iPadOS 13.6.1
+    - Android 10 One UI 2.0
 - Tested Browsers:
     - iOS / iPadOS
         - Chrome
