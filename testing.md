@@ -1,6 +1,6 @@
 ![Logo](/assets/images/logo-image.jpg)
 
-# MS-1 Project Testing Details #
+# Aviation-Consultancy Project Testing Details #
 
 
 [Main README.md file](https://github.com/simonjvardy/Aviation-Consultancy/blob/master/README.md)
@@ -41,29 +41,29 @@ The following **validation services** and **linter** were used to check the vali
 ## Manual Testing ##
 
 ### Unit Testing ###
-[Unit Testing document](testing/MS1-unit-test-plan.pdf) containing:
+[Unit Testing document](testing/aviation-consultancy-unit-test-plan.pdf) containing:
 - Unit Test scope,
 - The test cases,
 - The pass / fail record for each test case.
 
-### Functional Testing (combined Integration and System testing) ###
-[Functional Testing document](testing/MS1-functional-test-plan.pdf) containing:
+
+### User Acceptance Testing (UAT) ###
+[UAT document](testing/aviation-consultancy-uat-test-plan.pdf) containing:
 - UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
 - Identified risks, 
 - The test cases,
 - The pass / fail record for each test case.
 
-### User Acceptance Testing (UAT) ###
-[UAT document](testing/MS1-uat-test-plan.pdf) containing:
-- UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
-- Identified risks, 
-- The test cases,
-- The pass / fail record for each test case.
+### Peer Code Review ###
+The deployed website link was uploaded to the following sites for peer code review and testing:
+- Code Institute Slack #peer-code-review channel
+- Code Institute Slack #may-2020 channel
+- LinkedIn for general review and feedback
 
 ### Testing undertaken on desktop ###
 
 - Hardware:
-    - Macbook Pro Laptop
+    - Macbook Pro Laptop 17" (2009) & 16" (2019)
     - Dell 5590 Laptop
 - Tested Operating Systems:
     - Windows 10
@@ -73,10 +73,11 @@ The following **validation services** and **linter** were used to check the vali
         - Chrome
         - Firefox
         - Edge 
+        - Opera
     - OSX 10.11
         - Chrome
         - Firefox
-        - Safari  
+        - Safari
 
 ### Testing undertaken on tablet and phone devices ###
 
@@ -84,6 +85,7 @@ The following **validation services** and **linter** were used to check the vali
     - iPad Pro 12.9"
     - iPad Pro 10.5"
     - iPhone XS Max
+    - Samsung Galaxy S20
 - Tested Operating Systems:
     - iOS 13.6.1
     - iPadOS 13.6.1
@@ -100,15 +102,16 @@ The following **validation services** and **linter** were used to check the vali
 The issue log is managed on the [GitHub Project Issues section](https://github.com/simonjvardy/Aviation-Consultancy/issues) using the standard GitHub [bug\_report.md template](https://github.com/simonjvardy/Aviation-Consultancy/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
 
 
-#### Unsolved Bugs ####
+#### Known Bugs ####
 
 [Issue #60](https://github.com/simonjvardy/Aviation-Consultancy/issues/60)
 - Unit Testing: Homepage callout image doesn’t resize on an iPad or iPhone display
   - CSS property `background-attachment: fixed;` is not recognised by Apple devices and causes the website hero images using this property to display incorrectly
   - The workaround is to set the property back to the default `background-attachment: scroll;` but this will affect all devices and remove the image effect I was aiming for.
-  - An alternative solution, without resorting to JavaScript, is to add devices screen size specific `@media` queries to style.css to change from fixed to scroll but this can become difficult and messy.
-    - This has been tested within the current [style.css](https://github.com/simonjvardy/Aviation-Consultancy/blob/master/assets/css/style.css) file for a specific iPhone model screen size and can be seen at the end of the file.
-  - A more elegant solution to this problem by using only HTML & CSS is ongoing.
+    - Smaller versions of the background images were uploaded with a width of 960px to cover tablet and mobile devices
+    - Media query with a `max-width: 1366px;` was added to the [style.css](https://github.com/simonjvardy/Aviation-Consultancy/blob/master/assets/css/style.css) file and included the container classes for each of the page background images with the background attributes set to `background: url('../images/image-file.pg') no-repeat center scroll; background-size: cover;`
+    - This works correctly on all device types now but is not a completely satisfactory solution; in keeping with what I had designed.
+    - I think the design has reached the limits of my experience for the time available but adding JavaScript at a later time may add the functionality to allow the original design on all device types.
 
-[Issue #](https://github.com/simonjvardy/Aviation-Consultancy/issues) 
-- <description>
+#### Unsolved Bugs ####
+
