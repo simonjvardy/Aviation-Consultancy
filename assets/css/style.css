@@ -127,6 +127,9 @@ body {
 
 .jumbotron {
     background: none;
+    animation-name: text-fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
 }
 
 .jumbotron h1 {
@@ -151,6 +154,17 @@ body {
     width: 575px;
     height: auto;
 }
+
+/* -------------------------------------Animations */
+
+@keyframes text-fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 /* -------------------------------------Buttons */
 
