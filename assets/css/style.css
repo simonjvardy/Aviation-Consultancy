@@ -472,7 +472,7 @@ body {
 /* -------------------------------------Responsive Design - Apple Products Fix */
 /* Apple devices do not support background-attachment: fixed; which has caused the background images to display incorrectly*/
 /* These media queries are a workaround to try to fix issue #60 by adding smaller image versions and setting the */
-/* background-attachment: scroll; for all devices smaller than 1120px device width which covers most iPhones and iPads */
+/* background-attachment: scroll; for all devices smaller than 1366px device width which covers most iPhones and iPads */
 /* in portrait and landscape modes */
 
 
