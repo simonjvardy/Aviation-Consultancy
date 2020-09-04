@@ -73,7 +73,7 @@ I achieve this by:
 - Providing contact details and social media links in the footer section of each page.
 - Providing an option to the customers to submit their contact and request details in a form.
 - Providing a summary of the consultancy services provided by Aviation Consultancy LLC
-- Providing an option to the customers to see staff member biographies and links to social media to findo out more.
+- Providing an option to the customers to see staff member biographies and links to social media to find out more.
 
 ### User Goals ###
 
@@ -128,7 +128,7 @@ I have chosen the colours that say 'trust' and 'dependable' buy using light blue
 - *Light Blue* (ADD8E6) - Sky blue
 - *White* (FFFFFF) - White
 
-These colours will compliment each other well when used across the site creating a pleasant ambience.
+These colours will compliment each other well when used across the site creating a professional, clean website.
 
 ### Wireframes ###
 
@@ -150,8 +150,7 @@ They represent the early stages of the design process for the website as ideas s
 
 #### Final Wireframes ####
 
-The final wireframes were created using Balsamiq adapted from the original hand drawn wireframe concepts. Each impage shows a page from the site in three display sizes to demonstrate
-the page design and layout.
+The final wireframes were created using Balsamiq adapted from the original hand drawn wireframe concepts. Each image shows a page from the site in three display sizes to demonstrate the page design and layout.
 
 - [Homepage](wireframes/home-page.png)
 - [Our Services](wireframes/our-services.png)
@@ -300,8 +299,8 @@ The following workflow steps are used to create and update branches within Gitpo
 
 #### Branches ####
 3. For changes to be made to any **documentation files**, the git command `git checkout documentation` is used to checkout and switch to the **documentation branch**.
-4. For changes to be made to **all other files**, the git command `git checkout development` is used to checkout and switch to the **development branch**.
-5. To create a **new branch**, use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
+4. For changes to be made to **other files** under normal site development, the git command `git checkout development` is used to checkout and switch to the **development branch**.
+5. To create a **new branch** for bug fixes, use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
 
 #### Working within a branch ####
 6. **New** or **modified** files are **staged** using the `git add .` command
@@ -325,7 +324,7 @@ The following workflow steps are used to create and update branches within Gitpo
 
 ## Project Management ##
 
-GitHub [Projects](https://github.com/simonjvardy/Aviation-Consultancy/projects) are used to organise the planning and development of the website using the Automated kanban template.
+GitHub [Projects](https://github.com/simonjvardy/Aviation-Consultancy/projects/1) are used to organise the planning and development of the website using the Automated kanban template.
 The following project cards are used to manage the tasks:
 - **Backlog** - this card is used to capture ideas for project tasks.
 - **To Do** - this is the current work queue for the project.
@@ -338,7 +337,7 @@ The following project cards are used to manage the tasks:
 - **Testing** - Testing tasks list
 - **Done** - completed tasks
 
-Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text which creates a **"to do" list** on cards as a way of spliting a single complex task into a list of steps to be completed.
+Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `- [ ]` for an un-ticked checkbox and `- [x]` for a ticked checkbox on cards as a way of splitting a single complex task into a list of steps to be completed.
 
 ![GitHub Projects](assets/images/github-projects.png)
 
@@ -352,7 +351,7 @@ Markdown syntax is used to create checkboxes by adding `- [ ]` and `- [x]` text 
 
 To manage bugs and issues tracking, the default GitHub [bug_report.md template](https://github.com/simonjvardy/MS-1/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) has been created and activated within the repository settings Features > Issues section.
 All new bugs and issues are tracked within the GitHub repository [Issues section](https://github.com/simonjvardy/Aviation-Consultancy/issues) .
-Open issues are managed within the [GitHub Projects section](https://github.com/simonjvardy/Aviation-Consultancy/projects)
+Open issues are managed within the [GitHub Projects section](https://github.com/simonjvardy/Aviation-Consultancy/projects/1)
 
 Each branch is then **merged** into the **master branch** using a **pull request** that is **linked** to the **open issue**. Once merged, and the bug report **closed**, the branch is **deleted**.
 

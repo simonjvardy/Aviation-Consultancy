@@ -11,17 +11,19 @@
 
 ## Table of Contents ##
 
-- [Automated Testing](#automated-testing)
-  - [Validation Services](#validation-services)
-- [Manual Testing](#manual-testing)
-  - [Unit Testing](#unit-testing)
-  - [User Acceptance Testing (UAT)](#user-acceptance-testing-(uat))
-  - [Peer Code Review](#peer-code-review)
-  - [Testing undertaken on desktop](#testing-undertaken-on-desktop)
-  - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
-- [Bugs discovered](#bugs-discovered)
-  - [Known Bugs](#known-bugs)
-  - [Unsolved Bugs](#unsolved-bugs)
+- [Aviation-Consultancy Project Testing Details](#aviation-consultancy-project-testing-details)
+  - [Table of Contents](#table-of-contents)
+  - [Automated Testing](#automated-testing)
+    - [Validation Services](#validation-services)
+  - [Manual Testing](#manual-testing)
+    - [Unit Testing](#unit-testing)
+    - [User Acceptance Testing (UAT)](#user-acceptance-testing-uat)
+    - [Peer Code Review](#peer-code-review)
+    - [Testing undertaken on desktop](#testing-undertaken-on-desktop)
+    - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
+  - [Bugs discovered](#bugs-discovered)
+      - [Known Bugs](#known-bugs)
+      - [Unsolved Bugs](#unsolved-bugs)
 
 
 ---
@@ -64,11 +66,13 @@ The deployed website link was uploaded to the following sites for peer code revi
 ### Testing undertaken on desktop ###
 
 - Hardware:
-    - Macbook Pro Laptop 17" (2009) & 16" (2019)
+    - Macbook Pro Laptop 17" (2009)
+    - Macbook Pro Laptop 16" (2019)
     - Dell 5590 Laptop
 - Tested Operating Systems:
     - Windows 10
-    - OSX 10.11          
+    - OSX 10.11
+    - OSX 10.15    
 - Tested Browsers:
     - Windows 10:
         - Chrome
