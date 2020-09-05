@@ -186,27 +186,27 @@
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
                                     <!-- Bootstrap Tag icon -->
-                                    <span class="input-group-text" id="emailIconPrepend">
+                                    <span class="input-group-text" id="subjectIconPrepend">
                                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M2 2v4.586l7 7L13.586 9l-7-7H2zM1 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2z"/>
                                             <path fill-rule="evenodd" d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                         </svg>
                                     </span>
                                 </div>
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder=" Enter subject" required>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder=" Enter subject" aria-describedby="subjectIconPrepend" required>
                             </div>
                             <!-- Message textarea -->
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
                                     <!-- Bootstrap Chat right text icon -->
-                                    <span class="input-group-text" id="emailIconPrepend">
+                                    <span class="input-group-text" id="textareaIconPrepend">
                                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-right-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
                                             <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
                                         </svg>
                                     </span>
                                 </div>
-                                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter message details..." required></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter message details..." aria-describedby="textareaIconPrepend" required></textarea>
                             </div>
                             <!-- Consent checkbox -->
                             <div class="form-group form-check">
