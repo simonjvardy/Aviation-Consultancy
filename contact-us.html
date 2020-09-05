@@ -140,34 +140,78 @@
                     <div class="modal-body">
                         <form action="confirmation.html">
                             <!-- Username -->
-                            <div class="form-group">
-                                <label for="username"><i class="fas fa-user"></i></label>
-                                <input type="text" class="form-control" id="username" name="username" placeholder="Enter name" required>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Person icon -->
+                                    <span class="input-group-text" id="usernameIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                                          </svg>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Enter name" aria-describedby="usernameIconPrepend" required>
                             </div>
                             <!-- Email Address -->
-                            <div class="form-group">
-                                <label for="email"><i class="fas fa-envelope"></i></label>
-                                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Envelope icon -->
+                                    <span class="input-group-text" id="emailIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                                          </svg>
+                                    </span>
+                                </div>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email"  aria-describedby="emailIconPrepend" required>
                             </div>
                             <!-- Phone Number -->
-                            <div class="form-group">
-                                <label for="phoneNumber"><i class="fas fa-phone-alt"></i></label>
-                                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Telephone icon -->
+                                    <span class="input-group-text" id="telephoneIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                          </svg>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" aria-describedby="telephoneIconPrepend" required>
                             </div>
                             <!-- Organisation Name -->
-                            <div class="form-group">
-                                <label for="organisation"><i class="fas fa-building"></i></label>
-                                <input type="text" class="form-control" id="organisation" name="organisation" placeholder="Enter your organisation" required>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Building icon -->
+                                    <span class="input-group-text" id="organisationIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-building" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694L1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                                            <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+                                          </svg>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="organisation" name="organisation" placeholder="Enter your organisation" aria-describedby="organisationIconPrepend" required>
                             </div>
                             <!-- Message Subject -->
-                            <div class="form-group">
-                                <label for="subject"><i class="fas fa-tag"></i></label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Tag icon -->
+                                    <span class="input-group-text" id="emailIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M2 2v4.586l7 7L13.586 9l-7-7H2zM1 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2z"/>
+                                            <path fill-rule="evenodd" d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                          </svg>
+                                    </span>
+                                </div>
                                 <input type="text" class="form-control" id="subject" name="subject" placeholder=" Enter subject" required>
                             </div>
                             <!-- Message textarea -->
-                            <div class="form-group">
-                                <label for="message"><i class="fas fa-pencil-alt"></i></label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Chat right text icon -->
+                                    <span class="input-group-text" id="emailIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-right-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+                                            <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                                          </svg>
+                                    </span>
+                                </div>
                                 <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter message details..." required></textarea>
                             </div>
                             <!-- Consent checkbox -->
