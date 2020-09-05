@@ -266,6 +266,7 @@ body {
     font-size: 1.5rem;
 }
 
+
 /* -------------------------------------Contact Us Page */
 /* -------------------------------------Contact Us cards */
 
@@ -308,7 +309,7 @@ body {
 .testimonial-carousel {
 /* Background image css code copied from the Code Institute Whiskey Drop project*/
     background-color: transparent;
-    background: url('../images/above-the-clouds.jpg') no-repeat center fixed;
+    background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
