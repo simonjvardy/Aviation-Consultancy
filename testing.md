@@ -36,7 +36,7 @@ The following **validation services** and **linter** were used to check the vali
 - [W3C Markup Validation](https://validator.w3.org/) 
   - This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
-  - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
+  - This validator checks the validity of cascading style sheets (css) and (X)HTML documents with style sheets.
 - [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
   - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
 
